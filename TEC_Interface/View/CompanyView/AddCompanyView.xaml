@@ -1,0 +1,75 @@
+﻿<Window x:Class="TEC_Interface.View.Company.AddCompanyView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TEC_Interface.View.Company"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="AddCompany" Height="300" Width="450"
+        WindowStartupLocation="CenterScreen">
+    <Grid Background="#cfd8dc">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0"
+               Content="New Company"
+               HorizontalAlignment="Center"
+               FontSize="24"/>
+
+        <Grid Grid.Row="1" Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0" Grid.Column="0"
+                   Content="Company Name" 
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"/>
+
+            <TextBox Grid.Row="0" Grid.Column="1"
+                     VerticalAlignment="Center"
+                     Margin="0,0,20,0"
+                     materialDesign:HintAssist.Hint="Enter Company Name"
+                     Text="{Binding Path=Name}"/>
+
+            <Label Grid.Row="1" Grid.Column="0"
+                   Content="Company Address" 
+                   VerticalAlignment="Top"
+                   HorizontalAlignment="Right"/>
+
+            <TextBox Grid.Row="1" Grid.Column="1"
+                     Margin="0,0,20,0"
+                     materialDesign:HintAssist.Hint="Enter Description"
+                     Text="{Binding Path=Address}"/>
+
+
+            
+        </Grid>
+
+        <DockPanel Grid.Row="2" LastChildFill="False"
+                   Width="300"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   Margin="0,10">
+
+            <Button DockPanel.Dock="Left"
+                    Content="Add"
+                    Width="100"
+                    FontSize="16"
+                    Click="BtnAddCompany"/>
+            <Button DockPanel.Dock="Right"
+                    Content="Cancel"
+                    Width="100"
+                    FontSize="16"
+                    Click="BtnCancelAdd"/>
+        </DockPanel>
+    </Grid>
+</Window>

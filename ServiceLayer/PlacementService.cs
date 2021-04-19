@@ -1,0 +1,74 @@
+﻿using System.Linq;
+using System.Runtime.Serialization;
+using DataLayer.EfClasses;
+using Microsoft.EntityFrameworkCore;
+
+namespace ServiceLayer
+{
+    public class PlacementService
+    {
+        private TecContext _context;
+
+        public PlacementService(TecContext context) => _context = context;
+
+        public IQueryable<Placement> GetPlacements()
+        {
+            return _context.Placements.Where(c => c.IsDeleted == false)
+                .Include(c => c.CandidateLink)
+                .Include(c => c.OpeningLink)
+                .ThenInclude(c => c.CompanyLink);
+        }
+
+        public IQueryable<Placement> SearchPlacements(string search)
+        {
+            return _context.Placements.Where(c => c.IsDeleted == false
+                && (c.CandidateLink.CandidateFullName.Contains(search) || c.OpeningLink.CompanyLink.CompanyName.Contains(search)))
+                .Include(c => c.CandidateLink)
+                .Include(c => c.OpeningLink)
+                .ThenInclude(c => c.CompanyLink);
+        }
+
+        public IQueryable<Placement> GetQualifiedPlacements()
+        {
+            return _context.Placements.Where(c => c.IsDeleted == false && c.PlacementStatus.ToLower().Equals("qualified"))
+                .Include(c => c.CandidateLink)
+                .Include(c => c.OpeningLink);
+        }
+
+        public IQueryable<Placement> GetPendingPlacements()
+        {
+            return _context.Placements.Where(c => c.IsDeleted == false && c.PlacementStatus.ToLower().Equals("pending"))
+                .Include(c => c.CandidateLink)
+                .Include(c => c.OpeningLink);
+        }
+
+        public IQueryable<Placement> GetOpeningPlacements(string openingNum) =>
+            _context.Placements.Where(c => c.IsDeleted == false && c.OpeningNumber == openingNum)
+                .Include(c => c.CandidateLink);
+
+
+        public IQueryable<Placement> GetCandidatePlacements(string candidateNum) =>
+         _context.Placements.Where(c => c.IsDeleted == false && c.CandidateNumber == candidateNum)
+             .Include(c => c.OpeningLink)
+             .ThenInclude(c => c.CompanyLink);
+
+
+        public void AddPlacement(Placement placement)
+        {
+            _context.Placements.Add(placement);
+            _context.SaveChanges();
+        }
+
+        public void QualifyPlacement(string placementId)
+        {
+            _context.Placements.Find(placementId).PlacementStatus = "Qualified";
+            _context.SaveChanges();
+        }
+        
+        public void DeletePlacement(string placementId)
+        {   
+            _context.Placements.Find(placementId).IsDeleted = true;
+            _context.SaveChanges();
+        }
+    }
+}

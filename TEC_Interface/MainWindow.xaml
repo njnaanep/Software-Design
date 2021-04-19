@@ -1,0 +1,1988 @@
+﻿<Window x:Class="TEC_Interface.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TEC_Interface"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        Title="Temporary Employment Company" Height="600" Width="1200"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid Background="#cfd8dc">
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+
+
+        <Grid Name="NavigationGrid"
+              Grid.Row="1"
+              Grid.Column="0"
+              Width="45"
+              Background="#9ea7aa">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+
+            <Grid Row="0" Margin="0,5,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="MENU"
+                       FontSize="24"
+                       FontWeight="Bold"
+                       Margin="5,0,0,0"
+                       HorizontalContentAlignment="Left"/>
+
+
+                <ToggleButton Grid.Column="1" Name="NavigationToggle" Margin="0,0,3,0"
+                    Style="{StaticResource MaterialDesignHamburgerToggleButton}"
+                    ToolTip="MaterialDesignActionLightToggleButton"
+                    Click="ExpandNavigation">
+                    <ToggleButton.Content>
+                        <Binding ElementName="NavigationGrid" Path="Width"></Binding>
+                    </ToggleButton.Content>
+                    <materialDesign:ToggleButtonAssist.OnContent>
+                        <Binding ElementName="NavigationGrid" Path="MaxWidth"></Binding>
+                    </materialDesign:ToggleButtonAssist.OnContent>
+                </ToggleButton>
+            </Grid>
+            
+            <ListView x:Name="NavigationList"
+                      FontSize="18"
+                      Grid.Row="1"
+                      SelectionChanged="NavigationSelection"
+                      ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+
+                <StackPanel Orientation="Horizontal">
+                    <materialDesign:PackIcon Kind="House" Height="30" Width="30"/>
+                    <Label Content="HOME"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal">
+                    <materialDesign:PackIcon Kind="PersonBoxOutline" Height="30" Width="30"/>
+                    <Label Content="Candidate"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <materialDesign:PackIcon Kind="OfficeBuilding" Height="30" Width="30"/>
+                    <Label Content="Company"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <materialDesign:PackIcon Kind="Timetable" Height="30" Width="30"/>
+                    <Label Content="Job History"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <materialDesign:PackIcon Kind="WorkOutline" Height="30" Width="30"/>
+                    <Label Content="Placement"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <materialDesign:PackIcon Kind="FileDocumentBoxMultipleOutline" Height="30" Width="30"/>
+                    <Label Content="Opening"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <materialDesign:PackIcon Kind="BookmarkMultipleOutline" Height="30" Width="30"/>
+                    <Label Content="Qualification"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <materialDesign:PackIcon Kind="GoogleClassroom" Height="30" Width="30"/>
+                    <Label Content="Course"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <materialDesign:PackIcon Kind="EventText" Height="30" Width="30"/>
+                    <Label Content="Training Sessions"/>
+                </StackPanel>
+            </ListView>
+
+        </Grid>
+
+        
+
+
+        <!--Tab Navigation-->
+        <TabControl x:Name="NavigationTab" Background="#cfd8dc"
+            Grid.Column="2" Grid.Row="1" FontSize="16">
+
+            <TabItem  Visibility="Collapsed">
+                <Grid >
+                    <!--<Grid.Background>
+                        <ImageBrush ImageSource="C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\Data\TECLogo.png" Stretch="Uniform"/>
+                    </Grid.Background>-->
+
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Candidate"
+                     x:Name="CandidateTab"
+                     Visibility="Collapsed">
+
+                <Grid Background="#cfd8dc">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height=".7*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width=".5*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Column="0"
+                          Grid.Row="0"
+                          Grid.RowSpan="2"
+                          Margin="5,5,5,0"
+                          Grid.ColumnSpan="2">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0"
+                               Content="Candidates"
+                               FontWeight="Bold"
+                               HorizontalAlignment="Center"/>
+
+                        <TextBox x:Name="TxtCandidateSearch"
+                                 Grid.Row="2"
+                                 materialDesign:HintAssist.Hint="search candidate. . ."
+                                 Text="{Binding Path=SearchText, Delay=500, UpdateSourceTrigger=PropertyChanged}"/>
+
+
+                        <ListBox Margin="0,10,0,0"
+                                 Grid.Row="3"
+                                 ItemsSource="{Binding Path=CandidateList}"
+                                 SelectedItem="{Binding Path=SelectedCandidate}"
+                                 HorizontalContentAlignment="Stretch">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <Border Padding="1" BorderBrush="DarkSlateGray" BorderThickness="1">
+                                        <StackPanel Margin="1">
+                                            <TextBlock FontSize="16" Text="{Binding Path=FullName}"/>
+                                            <TextBlock FontSize="12" Text="{Binding Path=CandidateNumber}"/>
+                                        </StackPanel>
+                                    </Border>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </Grid>
+
+                    <Grid Grid.Row="0"
+                          Grid.Column="2" 
+                          Margin="5"
+                          DataContext="{Binding Path=SelectedCandidate}">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <DockPanel LastChildFill="False" 
+                                   Grid.Row="0"
+                                   Grid.Column="1"
+                                   Grid.ColumnSpan="3"
+                                   Margin="0,0,20,0">
+                            <Button Content="Add" 
+                                    DockPanel.Dock="Left" 
+                                    Click="BtnAddCandidate"
+                                    Margin="0"/>
+                            <Button Content="Edit" 
+                                    DockPanel.Dock="Left" 
+                                    Click="BtnEditCandidate"
+                                    Margin="20,0"/>
+                            <Button Content="Remove" 
+                                    DockPanel.Dock="Right"
+                                    Click="BtnDeleteCandidate"
+                                    Margin="0,0"/>
+                        </DockPanel>
+
+                        
+
+                        <Label Content="Name" 
+                               Grid.Row="1" 
+                               Grid.Column="0"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Right"/>
+                        <TextBlock Margin="5,5,20,5"
+                                   Grid.Row="1" 
+                                   Grid.Column="1" 
+                                   Grid.ColumnSpan="3"
+                                   Background="#eceff1"
+                                   Text="{Binding Path=FullName}"/>
+
+                        <Label Content="ID" 
+                               Grid.Row="2" 
+                               Grid.Column="0" 
+                               VerticalAlignment="Center" 
+                               HorizontalAlignment="Right"/>
+                        <TextBlock Margin="5,5,20,5"
+                                   Grid.Row="2" 
+                                   Grid.Column="1" 
+                                   Background="#eceff1"
+                                   Text="{Binding Path=CandidateNumber}"/>
+
+                        <Label Content="Gender" 
+                               Grid.Row="2" 
+                               Grid.Column="2" 
+                               VerticalAlignment="Center" 
+                               HorizontalAlignment="Right"/>
+                        <TextBlock Margin="5,5,20,5"
+                                   Grid.Row="2" 
+                                   Grid.Column="3" 
+                                   Background="#eceff1"
+                                   Text="{Binding Path=Gender}"/>
+
+                        <Label Content="Birthdate"
+                               Grid.Row="3" 
+                               Grid.Column="0" 
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Right"/>
+                        <TextBlock Margin="5,5,20,5"
+                                   Grid.Row="3" 
+                                   Grid.Column="1" 
+                                   Background="#eceff1"
+                                   Text="{Binding Path=Birthdate}"/>
+
+                        <Label Content="Age" 
+                               Grid.Row="3" 
+                               Grid.Column="2" 
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Right"/>
+                        <TextBlock Margin="5,5,20,5"
+                                   Grid.Row="3" 
+                                   Grid.Column="3" 
+                                   Background="#eceff1"
+                                   Text="{Binding Path=Age}"/>
+
+                        <Label Content="Address" 
+                               Grid.Row="4" 
+                               Grid.Column="0"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Right"/>
+                        <TextBlock Margin="5,5,20,5"
+                                   Grid.Row="4" 
+                                   Grid.Column="1" 
+                                   Grid.ColumnSpan="3"
+                                   Background="#eceff1"
+                                   Text="{Binding Path=Address}"/>
+
+                        <Label Content="Contact No" 
+                               Grid.Row="5" 
+                               Grid.Column="0" 
+                               VerticalAlignment="Center" 
+                               HorizontalAlignment="Right"/>
+                        <TextBlock Margin="5,5,20,5"
+                                   Grid.Row="5" 
+                                   Grid.Column="1" 
+                                   Background="#eceff1"
+                                   Text="{Binding Path=ContactNumber}"/>
+
+                        <Label Content="Email" 
+                               Grid.Row="5" 
+                               Grid.Column="2" 
+                               VerticalAlignment="Center" 
+                               HorizontalAlignment="Right"/>
+                        <TextBlock Margin="5,5,20,5"
+                                   Grid.Row="5" 
+                                   Grid.Column="3"
+                                   Background="#eceff1"
+                                   Text="{Binding Path=Email}"/>
+
+
+
+
+
+                    </Grid>
+
+                    <TabControl Grid.Row="1"
+                                    Grid.Column="2"
+                                    Margin="10,10,10,10"
+                                    FontSize="16">
+                        <TabItem Header="Placements" >
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <DataGrid DockPanel.Dock="Top"
+                                          CanUserAddRows="False"
+                                          SelectionMode="Single"
+                                          SelectionUnit="FullRow"
+                                          AutoGenerateColumns="False"
+                                          ItemsSource="{Binding Path=CandidatePlacementsList}" 
+                                          Background="#eceff1">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="ID" Binding="{Binding Path=PlacementId}"/>
+                                        <DataGridTextColumn Header="Opening No" Binding="{Binding Path=OpeningNumber}"/>
+                                        <DataGridTextColumn Header="Company" Binding="{Binding Path=Company}"/>
+                                        <DataGridTextColumn Header="Status" Binding="{Binding Path=Status}"/>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+
+                            </Grid>
+                        </TabItem>
+
+                        <TabItem Header="Job History" >
+                            <Grid Background="#eceff1" >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <DataGrid DockPanel.Dock="Top"
+                                          CanUserAddRows="False"
+                                          SelectionMode="Single"
+                                          SelectionUnit="FullRow"
+                                          AutoGenerateColumns="False"
+                                          ItemsSource="{Binding Path=CandidateJobHistoryList}"
+                                          Background="#eceff1">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="History ID" Binding="{Binding Path=HistoryId}"/>
+                                        <DataGridTextColumn Header="Company" Binding="{Binding Path=CompanyName}"/>
+                                        <DataGridTextColumn Header="Worked From" Binding="{Binding Path=WorkedFrom}"/>
+                                        <DataGridTextColumn Header="Worked To" Binding="{Binding Path=WorkedTo}"/>
+                                        <DataGridTextColumn Header="Worked Hours" Binding="{Binding Path=WorkedHours}"/>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                            </Grid>
+                        </TabItem>
+
+                        <TabItem Header="Qualifications">
+                            <Grid Background="#eceff1" >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <DataGrid DockPanel.Dock="Top"
+                                           CanUserAddRows="False"
+                                           SelectionMode="Single"
+                                           SelectionUnit="FullRow"
+                                           AutoGenerateColumns="False"
+                                           ItemsSource="{Binding Path=CandidatesCertificationList}"
+                                           Background="#eceff1">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Certification ID" Binding="{Binding Path=CertificationId}"/>
+                                        <DataGridTextColumn Header="Qualification" Binding="{Binding Path=Qualification}"/>
+                                        <DataGridTextColumn Header="Certification Date" Binding="{Binding Path=CertificationDate}"/>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                            </Grid>
+                        </TabItem>
+
+
+
+                        <TabItem Header="Enrolled Training">
+                            <Grid Background="#eceff1" >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <DataGrid DockPanel.Dock="Top"
+                                          CanUserAddRows="False"
+                                          SelectionMode="Single"
+                                          SelectionUnit="FullRow"
+                                          AutoGenerateColumns="False"
+                                          ItemsSource="{Binding Path=CandidateRegistrationList}"
+                                          Background="#eceff1">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Registration ID" Binding="{Binding Path=RegistrationId}"/>
+                                        <DataGridTextColumn Header="Course" Binding="{Binding Path=Course}"/>
+                                        <DataGridTextColumn Header="Session" Binding="{Binding Path=SessionId}"/>
+                                        <DataGridTextColumn Header="Registered Date" Binding="{Binding Path=RegistrationDate}"/>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                            </Grid>
+                        </TabItem>
+
+
+
+                    </TabControl>
+
+                </Grid>
+
+
+            </TabItem>
+
+            <TabItem Header="Company"
+                     x:Name="CompanyTab"
+                     Visibility="Collapsed">
+                <Grid Background="#cfd8dc">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height=".5*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width=".5*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Column="0"
+                          Grid.Row="0"
+                          Grid.RowSpan="2"
+                          Margin="5,5,5,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0"
+                               Content="Companies"
+                               FontSize="32"
+                               FontWeight="Bold"
+                               HorizontalAlignment="Center"/>
+                        <TextBox x:Name="TxtCompanySearch"
+                                 DockPanel.Dock="Left"
+                                 Grid.Row="2"
+                                 materialDesign:HintAssist.Hint="search company. . ."
+                                 Text="{Binding Path=SearchText, Delay=500, UpdateSourceTrigger=PropertyChanged}"/>
+
+                        <ListBox Margin="0,5"
+                                 Grid.Row="3"
+                                 ItemsSource="{Binding Path=CompanyList}"
+                                 SelectedItem="{Binding Path=SelectedCompany}"
+                                 HorizontalContentAlignment="Stretch">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <Border Padding="1" BorderBrush="DarkSlateGray" BorderThickness="1">
+                                        <StackPanel Margin="1">
+                                            <TextBlock FontSize="16" Text="{Binding Path=CompanyName}"/>
+                                            <TextBlock FontSize="12" Text="{Binding Path=CompanyId}"/>
+                                        </StackPanel>
+                                    </Border>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </Grid>
+
+                    <Grid Grid.Row="0"
+                          Grid.Column="2"
+                          DataContext="{Binding Path=SelectedCompany}">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <DockPanel LastChildFill="False" 
+                                   Margin="0,0,50,0"
+                                   Grid.Row="0"
+                                   Grid.Column="1">
+                            <Button Content="Add" 
+                                    DockPanel.Dock="Left" 
+                                    Click="BtnAddCompany"/>
+                            <Button Content="Edit" 
+                                    Margin="30,0"
+                                    DockPanel.Dock="Left" 
+                                    Click="BtnEditCompany"/>
+                            <Button Content="Remove" 
+                                    DockPanel.Dock="Right"
+                                    Click="BtnDeleteCompany"/>
+                        </DockPanel>
+
+                        
+
+                        <Label Grid.Row="1" Grid.Column="0"
+                               Content="Company Name"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Right"/>
+                        <TextBlock Grid.Row="1" Grid.Column="1"
+                                   Margin="5,0,50,0"
+                                   VerticalAlignment="Center"
+                                   Background="#eceff1"
+                                   Text="{Binding Path=CompanyName}"/>
+
+                        <Label Grid.Row="2" Grid.Column="0"
+                               Content="Company ID"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Right"/>
+                        <TextBlock Grid.Row="2" Grid.Column="1"
+                                   Margin="5,0,50,0"
+                                   VerticalAlignment="Center"
+                                   Background="#eceff1"
+                                   Text="{Binding Path=CompanyId}"/>
+                        <Label Grid.Row="3" Grid.Column="0"
+                               Content="Company Address"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Right"/>
+                        <TextBlock Grid.Row="3" Grid.Column="1"
+                                   Margin="5,0,50,0"
+                                   VerticalAlignment="Center"
+                                   Background="#eceff1"
+                                   Text="{Binding Path=CompanyAddress}"/>
+                    </Grid>
+
+
+                    <TabControl Grid.Row="1" 
+                                Grid.Column="2"
+                                Margin="5,0,5,10"
+                                FontSize="16">
+                        <TabItem Header="Job History">
+                            <Grid Background="#eceff1" >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <DataGrid DockPanel.Dock="Top"
+                                          CanUserAddRows="False"
+                                          SelectionMode="Single"
+                                          SelectionUnit="FullRow"
+                                          AutoGenerateColumns="False"
+                                          Background="#eceff1"
+                                          ItemsSource="{Binding Path=CompanyJobHistories}">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="History ID" Binding="{Binding Path=HistoryId}"/>
+                                        <DataGridTextColumn Header="Candidate" Binding="{Binding Path=CandidateName}"/>
+                                        <DataGridTextColumn Header="Worked From" Binding="{Binding Path=WorkedFrom}"/>
+                                        <DataGridTextColumn Header="To" Binding="{Binding Path=WorkedTo}"/>
+                                        <DataGridTextColumn Header="Work Hours" Binding="{Binding Path=WorkedHours}"/>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                            </Grid>
+                        </TabItem>
+
+                        <TabItem Header="Opening">
+                            <Grid Background="#eceff1" >
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <DataGrid Grid.ColumnSpan="2"
+                                          CanUserAddRows="False"
+                                          SelectionMode="Single"
+                                          SelectionUnit="FullRow"
+                                          AutoGenerateColumns="False"
+                                          Background="#eceff1"
+                                          ItemsSource="{Binding Path=CompanyOpenings}">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Opening ID" Binding="{Binding Path=OpeningId}"/>
+                                        <DataGridTextColumn Header="Main Qualification" Binding="{Binding Path=Qualification}"/>
+                                        <DataGridTextColumn Header="Starting Date" Binding="{Binding Path=StartingDate}"/>
+                                        <DataGridTextColumn Header="End Date" Binding="{Binding Path=AnticipatedEndDate}"/>
+                                        <DataGridTextColumn Header="Hourly Rate" Binding="{Binding Path=HourlyPay}"/>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                            </Grid>
+                        </TabItem>
+                    </TabControl>
+
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Job History" 
+                     x:Name="HistoryTab"
+                     Visibility="Collapsed">
+                <Grid Background="#cfd8dc">
+                    <Grid Grid.Column="0"
+                          Grid.Row="0"
+                          Margin="5">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                            <Label Content="Job Histories"
+                                   FontSize="32"
+                                   Grid.Row="0"
+                                   FontWeight="Bold"
+                                   HorizontalAlignment="Center"/>
+
+                        <Grid Grid.Row="1">
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <TextBox Grid.Column="1"
+                                     Margin="10,0"
+                                     materialDesign:HintAssist.Hint="Search Job History"
+                                     Text="{Binding Path=SearchText, Delay=500, UpdateSourceTrigger=PropertyChanged}"/>
+
+
+                            <StackPanel Grid.Column="0" Orientation="Horizontal">
+                                <Button Margin="0,0,5,0"
+                                    Height="NaN" Width="NaN"
+                                    Click="AddJobHistory">
+                                    <materialDesign:PackIcon Kind="PlusThick" Height="20" Width="20"/>
+                                </Button>
+
+                                <Button Margin="5,0,0,0"
+                                        Height="NaN" Width="NaN"
+                                        Click="BtnEditJobHistory">
+                                    <materialDesign:PackIcon Kind="Pencil" Height="20" Width="20"/>
+                                </Button>
+                            </StackPanel>
+
+                        </Grid>
+                       
+                        <DataGrid Name="GridJobHistory"
+                                  Grid.Row="3"  
+                                  Margin="0,10"
+                                  CanUserAddRows="False"
+                                  AutoGenerateColumns="False"
+                                  SelectionMode="Single"
+                                  SelectionUnit="FullRow"
+                                  Background="#eceff1"
+                                  HorizontalAlignment="Stretch"
+                                  ItemsSource="{Binding Path=JobHistoryList}"
+                                  SelectedItem="{Binding Path=SelectedJobHistory}">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="History ID" Binding="{Binding Path = HistoryId}"/>
+                                <DataGridTextColumn Header="Candidate" Binding="{Binding Path = CandidateName}" Width="200"/>
+                                <DataGridTextColumn Header="Company" Binding="{Binding Path = CompanyName}" Width="250"/>
+                                <DataGridTextColumn Header="Worked From" Binding="{Binding Path = WorkedFrom}"/>
+                                <DataGridTextColumn Header="To" Binding="{Binding Path = WorkedTo}"/>
+                                <DataGridTextColumn Header="Worked Hours" Binding="{Binding Path = WorkedHours}"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </Grid>
+
+                    
+                </Grid>
+            </TabItem>
+
+
+            <TabItem Header="Placement" 
+                     x:Name="PlacementTab"
+                     Visibility="Collapsed">
+                <Grid Background="#cfd8dc">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height=".5*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width=".5*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Column="0"
+                          Grid.Row="0"
+                          Grid.RowSpan="2"
+                          Margin="5">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0"
+                               Content="Placements"
+                               FontSize="32"
+                               FontWeight="Bold"
+                               HorizontalAlignment="Center"/>
+
+                        <TextBox DockPanel.Dock="Left"
+                                 Grid.Row="2"
+                                 materialDesign:HintAssist.Hint="search placements. . ."
+                                 Text="{Binding Path=SearchText, Delay=500, UpdateSourceTrigger=PropertyChanged}"/>
+
+                        <ListBox Margin="0,5"
+                                 Grid.Row="3"
+                                 ItemsSource="{Binding Path=PlacementList}"
+                                 SelectedItem="{Binding Path=SelectedPlacement}"
+                                 HorizontalContentAlignment="Stretch">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <Border Padding="1" BorderBrush="DarkSlateGray" BorderThickness="1">
+                                        <StackPanel Margin="1">
+                                            <TextBlock FontSize="16" Text="{Binding Path=CandidateName}"/>
+                                            <TextBlock FontSize="14" Text="{Binding Path=PlacementId}"/>
+                                        </StackPanel>
+                                    </Border>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+
+                    </Grid>
+
+                    <Grid Grid.Row="0"
+                          Grid.Column="2"
+                          Margin="5"
+                          DataContext="{Binding Path=SelectedPlacement}">
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <!--<DockPanel LastChildFill="False" 
+                                   Margin="5,5,20,5"
+                                   Grid.Row="0"
+                                   Grid.Column="1"
+                                   Grid.ColumnSpan="3">
+                            <Button Content="Remove" 
+                                    DockPanel.Dock="Right"/>
+                            <Button Content="Edit" 
+                                    DockPanel.Dock="Left"/>
+                        </DockPanel>-->
+
+
+                        <Label Content="Placement ID"
+                               Grid.Row="1"
+                               Grid.Column="0"
+                               HorizontalAlignment="Right"
+                               VerticalAlignment="Center"/>
+                        <TextBlock Grid.Row="1"
+                                   Grid.Column="1"
+                                   Margin="5,0,20,0"
+                                   VerticalAlignment="Center"     
+                                   Background="#eceff1"
+                                   Text="{Binding Path=PlacementId}"/>
+
+                        <Label Content="Opening No"
+                               Grid.Row="1"
+                               Grid.Column="2"
+                               HorizontalAlignment="Right"
+                               VerticalAlignment="Center"/>
+                        <TextBlock Grid.Row="1"
+                                   Grid.Column="3"
+                                   Margin="5,0,20,0"
+                                   VerticalAlignment="Center" 
+                                   Background="#eceff1"
+                                   Text="{Binding Path=OpeningNum}"/>
+
+                        <Label Content="CandidateName"
+                               Grid.Row="2"
+                               Grid.Column="0"
+                               HorizontalAlignment="Right"
+                               VerticalAlignment="Center"/>
+                        <TextBlock Grid.Row="2"
+                                   Grid.Column="1"
+                                   Grid.ColumnSpan="3"
+                                   Margin="5,0,20,0"
+                                   VerticalAlignment="Center" 
+                                   Background="#eceff1"
+                                   Text="{Binding Path=CandidateName}"/>
+
+                        <Label Content="Company"
+                               Grid.Row="3"
+                               Grid.Column="0"
+                               HorizontalAlignment="Right"
+                               VerticalAlignment="Center"/>
+                        <TextBlock Grid.Row="3"
+                                   Grid.Column="1"
+                                   Grid.ColumnSpan="3"
+                                   Margin="5,0,20,0"
+                                   VerticalAlignment="Center" 
+                                   Background="#eceff1"
+                                   Text="{Binding Path=Company}"/>
+                    </Grid>
+
+
+                    <Grid Background="#eceff1" 
+                          Grid.Row="1"
+                          Grid.Column="2">
+                              <Grid.RowDefinitions>
+                                  <RowDefinition Height="Auto"/>
+                                  <RowDefinition Height="*"/>
+                                  <RowDefinition Height="Auto"/>
+                              </Grid.RowDefinitions>
+                        <Label Grid.Row="0" 
+                               FontSize="20" 
+                               Content="Pending Placement"/>
+
+                                <DataGrid DockPanel.Dock="Top"
+                                          Grid.Row="1"
+                                          CanUserAddRows="False"
+                                          AutoGenerateColumns="False"
+                                          SelectionMode="Single"
+                                          SelectionUnit="FullRow"
+                                          Background="#eceff1" 
+                                          ItemsSource="{Binding Path=PendingPlacements}"
+                                          SelectedItem="{Binding Path=SelectedPendingPlacement}">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="ID" Binding="{Binding Path = PlacementId}"/>
+                                        <DataGridTextColumn Header="Candidate" Binding="{Binding Path = CandidateLink.CandidateFullName}"/>
+                                        <DataGridTextColumn Header="Opening No" Binding="{Binding Path = OpeningNumber}"/>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                                <StackPanel Grid.Row="2"
+                                            Orientation="Horizontal">
+                                    <Button Content="Qualify" 
+                                            Margin="30,5"
+                                            Click="BtnQualifyPlacement"/>
+                                </StackPanel>
+                    </Grid>
+                        
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Opening" 
+                     x:Name="OpeningTab"
+                     Visibility="Collapsed">
+                <Grid Background="#cfd8dc">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height=".6*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width=".5*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Column="0"
+                          Grid.Row="0"
+                          Grid.RowSpan="2"
+                          Margin="5,5,5,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0"
+                               Content="Openings"
+                               FontSize="32"
+                               FontWeight="Bold"
+                               HorizontalAlignment="Center"/>
+                       <TextBox DockPanel.Dock="Left"
+                                Grid.Row="2"
+                                materialDesign:HintAssist.Hint="search opening. . ."
+                                Text="{Binding Path=SearchText, Delay=500, UpdateSourceTrigger=PropertyChanged}"/>
+
+
+                        <ListBox Margin="0,5"
+                                 Grid.Row="3"
+                                 ItemsSource="{Binding Path=OpeningList}"
+                                 SelectedItem="{Binding Path=SelectedOpening}"
+                                 HorizontalContentAlignment="Stretch">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <Border Padding="1" BorderBrush="DarkSlateGray" BorderThickness="1">
+                                        <StackPanel Margin="1">
+                                            <TextBlock FontSize="16" Text="{Binding Path=CompanyName}"/>
+                                            <TextBlock FontSize="12" Text="{Binding Path=OpeningNumber}"/>
+                                            <TextBlock FontSize="12" Text="{Binding Path=Qualification}"/>
+                                        </StackPanel>
+                                    </Border>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+
+
+                    </Grid>
+
+                    <Grid Grid.Row="0"
+                          Grid.Column="2"
+                          Margin="5"
+                          DataContext="{Binding Path=SelectedOpening}">
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <DockPanel LastChildFill="False" 
+                                   Margin="5,0,20,0"
+                                   Grid.Row="0"
+                                   Grid.Column="1"
+                                   Grid.ColumnSpan="3">
+                            <Button Content="Add" 
+                                    DockPanel.Dock="Left" 
+                                    Click="BtnAddOpening"/>
+                            <Button Margin="30,0"
+                                    Content="Edit"
+                                    HorizontalAlignment="Left" 
+                                    Click="BtnEditOpening"/>
+                            <Button Content="Remove" 
+                                    DockPanel.Dock="Right"
+                                    Click="BtnDeleteOpening"/>
+                        </DockPanel>
+
+                        
+                        <Label Content="Company"
+                               Grid.Row="1"
+                               Grid.Column="0"
+                               HorizontalAlignment="Right"
+                               VerticalAlignment="Center"/>
+                        <TextBlock Grid.Row="1"
+                                   Grid.Column="1"
+                                   Grid.ColumnSpan="3"
+                                   Margin="5,0,20,0"
+                                   VerticalAlignment="Center" 
+                                   Background="#eceff1"
+                                   Text="{Binding Path=CompanyName}"/>
+
+                        <Label Content="Opening No."
+                               Grid.Row="2"
+                               Grid.Column="0"
+                               HorizontalAlignment="Right"
+                               VerticalAlignment="Center"/>
+                        <TextBlock Grid.Row="2"
+                                   Grid.Column="1"
+                                   Margin="5,0,20,0"
+                                   VerticalAlignment="Center" 
+                                   Background="#eceff1"
+                                   Text="{Binding Path=OpeningNumber}"/>
+
+                        <Label Content="Main Qualification"
+                               Grid.Row="2"
+                               Grid.Column="2"
+                               HorizontalAlignment="Right"
+                               VerticalAlignment="Center"/>
+                        <TextBlock Grid.Row="2"
+                                   Grid.Column="3"
+                                   Margin="5,0,20,0"
+                                   VerticalAlignment="Center" 
+                                   Background="#eceff1"
+                                   Text="{Binding Path=Qualification}"/>
+
+                        <Label Content="Starting Date"
+                               Grid.Row="3"
+                               Grid.Column="0"
+                               HorizontalAlignment="Right"
+                               VerticalAlignment="Center"/>
+                        <TextBlock Grid.Row="3"
+                                   Grid.Column="1"
+                                   Margin="5,0,20,0"
+                                   VerticalAlignment="Center" 
+                                   Background="#eceff1"
+                                   Text="{Binding Path=StartingDate}"/>
+
+                        <Label Content="Expected End Date"
+                               Grid.Row="3"
+                               Grid.Column="2"
+                               HorizontalAlignment="Right"
+                               VerticalAlignment="Center"/>
+                        <TextBlock Grid.Row="3"
+                                   Grid.Column="3"
+                                   Margin="5,0,20,0"
+                                   VerticalAlignment="Center" 
+                                   Background="#eceff1"
+                                   Text="{Binding Path=EndDate}"/>
+
+                        <Label Content="Hourly Pay"
+                               Grid.Row="4"
+                               Grid.Column="0"
+                               HorizontalAlignment="Right"
+                               VerticalAlignment="Center"/>
+                        <TextBlock Grid.Row="4"
+                                   Grid.Column="1"
+                                   Margin="5,0,20,0"
+                                   VerticalAlignment="Center" 
+                                   Background="#eceff1"
+                                   Text="{Binding Path=HourlyPay}"/>
+
+
+                    </Grid>
+
+                    <Grid Grid.Row="1" Grid.Column="2" Margin="10"
+                          Background="#eceff1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0"
+                               Content="Placements"
+                               FontSize="22" />
+                        <DataGrid Grid.Row="1"
+                                  CanUserAddRows="False"
+                                  AutoGenerateColumns="False"
+                                  SelectionMode="Single"
+                                  SelectionUnit="FullRow"
+                                  Background="#eceff1" 
+                                  ItemsSource="{Binding Path=OpeningPlacements}">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="ID" Binding="{Binding Path = PlacementId}"/>
+                                <DataGridTextColumn Header="Candidate" Binding="{Binding Path = Candidate}"/>
+                                <DataGridTextColumn Header="Status" Binding="{Binding Path = Status}"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+
+                        <StackPanel Grid.Row="2"
+                                    Orientation="Horizontal"
+                                    Margin="30,5" Grid.ColumnSpan="2">
+                            <Button Content="New Application" 
+                                    Width="150" 
+                                    FontSize="14"
+                                    Click="NewPlacementApplication"/>
+                        </StackPanel>
+
+                        <Popup x:Name="NewApplicationPopup"
+                               Style="{StaticResource PopupStyle}">
+                            <Border BorderThickness="3" 
+                                    BorderBrush="White">
+                                <Grid Background="#cfd8dc">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <Label Grid.Row="0"
+                                               Content="Potential Candidates"
+                                               FontSize="18"
+                                               FontWeight="Bold"
+                                               HorizontalAlignment="Center"/>
+
+
+                                <TextBox Grid.Row="1"
+                                         FontSize="18"
+                                         Margin="10,0"
+                                         materialDesign:HintAssist.Hint="search candidate. . ."
+                                         Text="{Binding Path=SearchCandidateString, Delay=500, UpdateSourceTrigger=PropertyChanged}"/>
+
+                                <ListBox Margin="0,5"
+                                                 Grid.Row="2"
+                                                 ItemsSource="{Binding Path=CandidateList}"
+                                                 SelectedItem="{Binding Path=SelectedCandidate}"
+                                                 HorizontalContentAlignment="Stretch">
+                                    <ListBox.ItemTemplate>
+                                        <DataTemplate>
+                                                <Border Padding="1" BorderBrush="DarkSlateGray" BorderThickness="1" >
+                                                <StackPanel Margin="1">
+                                                    <TextBlock FontSize="14" Text="{Binding Path=CandidateFullName}"/>
+                                                    <TextBlock FontSize="11" Text="{Binding Path=CandidateContactNumber}"/>
+                                                    <TextBlock FontSize="11" Text="{Binding Path=CandidateEmail}"/>
+                                                </StackPanel>
+                                            </Border>
+                                        </DataTemplate>
+                                    </ListBox.ItemTemplate>
+                                </ListBox>
+
+                                <DockPanel LastChildFill="False" 
+                                                   Margin="30,10"
+                                                   Grid.Row="3">
+                                    <Button Content="Cancel" 
+                                                    DockPanel.Dock="Right"
+                                                    Click="CloseApplicationPopup "/>
+                                    <Button Content="Add" 
+                                                    DockPanel.Dock="Left" 
+                                                    Click="AddPlacementApplication"/>
+                                </DockPanel>
+                            </Grid>
+                            </Border>
+                        </Popup>
+                    </Grid>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Qualification"
+                     x:Name="QualificationTab"
+                     Visibility="Collapsed">
+                <Grid Background="#cfd8dc">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height=".7*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width=".5*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Column="0"
+                          Grid.Row="0"
+                          Grid.RowSpan="2"
+                          Margin="5">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0"
+                               Content="Qualifications"
+                               FontSize="32"
+                               FontWeight="Bold"
+                               HorizontalAlignment="Center"/>
+
+
+                        <TextBox DockPanel.Dock="Left"
+                                 Grid.Row="2"
+                                 FontSize="18"
+                                 materialDesign:HintAssist.Hint="search qualification. . ."
+                                 Text="{Binding Path=SearchText, Delay=500, UpdateSourceTrigger=PropertyChanged}"/>
+
+                        <ListBox Margin="0,5"
+                                 Grid.Row="3"
+                                 ItemsSource="{Binding Path=QualificationList}"
+                                 SelectedItem="{Binding Path=SelectedQualification}"
+                                 HorizontalContentAlignment="Stretch">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <Border Padding="1" BorderBrush="DarkSlateGray" BorderThickness="1">
+                                        <StackPanel Margin="1">
+                                            <TextBlock FontSize="16" Text="{Binding Path=QualificationCode}"/>
+                                        </StackPanel>
+                                    </Border>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+
+                    </Grid>
+
+                    <Grid Grid.Row="0"
+                          Grid.Column="2"
+                          DataContext="{Binding Path=SelectedQualification}">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="3*"/>
+                        </Grid.RowDefinitions>
+
+                        <DockPanel LastChildFill="False" 
+                                   Margin="0,0,50,0"
+                                   Grid.Row="0"
+                                   Grid.Column="1">
+                            <Button Content="Add" 
+                                    DockPanel.Dock="Left" 
+                                    Click="BtnAddQualification"/>
+
+                            <Button Content="Edit" 
+                                    DockPanel.Dock="Left" 
+                                    Margin="30,0"
+                                    Click="BtnEditQualification"/>
+                            <Button Content="Remove" 
+                                    DockPanel.Dock="Right"
+                                    Click="BtnDeleteQualification"/>
+                        </DockPanel>
+
+
+                        <Label Grid.Row="1" Grid.Column="0"
+                               Content="Code"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Right"
+                               FontSize="16"/>
+                        <TextBlock Grid.Row="1" Grid.Column="1"
+                                   Margin="5,0,50,0"
+                                   VerticalAlignment="Center"
+                                   Background="#eceff1"
+                                   Text="{Binding Path=QualificationCode}"/>
+
+                        <Label Grid.Row="2" Grid.Column="0"
+                               Content="Description"
+                               VerticalAlignment="Top"
+                               HorizontalAlignment="Right"/>
+                        <TextBlock Grid.Row="2" Grid.Column="1"
+                                   Margin="5,5,50,5"
+                                   Background="#eceff1"
+                                   Text="{Binding Path=QualificationDescription}"/>
+                    </Grid>
+
+                    <TabControl Grid.Row="1" 
+                                Grid.Column="2"
+                                Margin="5"
+                                FontSize="16">
+                        <TabItem Header="Qualified">
+                            <Grid Background="#eceff1" >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <DataGrid DockPanel.Dock="Top"
+                                          CanUserAddRows="False"
+                                          SelectionMode="Single"
+                                          SelectionUnit="FullRow"
+                                          AutoGenerateColumns="False"
+                                          Background="#eceff1" 
+                                          ItemsSource="{Binding Path=QualificationCertificateList}">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="ID" Binding="{Binding Path=CandidateNum}"/>
+                                        <DataGridTextColumn Header="Candidate" Binding="{Binding Path=Candidate}"/>
+                                        <DataGridTextColumn Header="Certification Date" Binding="{Binding Path=CertificationDate}"/>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                                <StackPanel Grid.Row="1"
+                                            Orientation="Horizontal">
+                                    <Button Content="Add Candidate" 
+                                            Width="150" 
+                                            FontSize="14" 
+                                            Margin="30,5" 
+                                            Click="DisplayCandidateForQualification"/>
+                                </StackPanel>
+
+                                <Popup x:Name="QualificationCandidatePopup"
+                                       Style="{StaticResource PopupStyle}">
+
+                                    <Border BorderThickness="3" 
+                                            BorderBrush="White">
+                                        <Grid Background="#cfd8dc">
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition Height="*"/>
+                                                <RowDefinition Height="Auto"/>
+                                            </Grid.RowDefinitions>
+
+                                            <Label Grid.Row="0"
+                                                   Content="Candidates"
+                                                   FontSize="18"
+                                                   FontWeight="Bold"
+                                                   HorizontalAlignment="Center"/>
+                                            
+                                            <TextBox DockPanel.Dock="Left"
+                                                     Grid.Row="1"
+                                                     FontSize="18"
+                                                     Margin="5,0"
+                                                     materialDesign:HintAssist.Hint="search candidate. . ."
+                                                     Text="{Binding Path=SearchCandidateString, Delay=500, UpdateSourceTrigger=PropertyChanged}"/>
+
+                                            <ListBox Margin="0,5"
+                                                     Grid.Row="2"
+                                                     ItemsSource="{Binding Path=CandidateList}"
+                                                     SelectedItem="{Binding Path=SelectedCandidate}"
+                                                     HorizontalContentAlignment="Stretch">
+                                                <ListBox.ItemTemplate>
+                                                    <DataTemplate>
+                                                        <Border Padding="1" BorderBrush="DarkSlateGray" BorderThickness="1">
+                                                            <StackPanel Margin="1">
+                                                                <TextBlock FontSize="14" Text="{Binding Path=CandidateFullName}"/>
+                                                                <TextBlock FontSize="11" Text="{Binding Path=CandidateNumber}"/>
+                                                            </StackPanel>
+                                                        </Border>
+                                                    </DataTemplate>
+                                                </ListBox.ItemTemplate>
+                                            </ListBox>
+
+                                            <DockPanel LastChildFill="False" 
+                                                       Margin="20,0,20,10"
+                                                       Grid.Row="3">
+                                                <Button Content="Cancel" 
+                                                        DockPanel.Dock="Right"
+                                                        Click="CancelNewRegistration "/>
+                                                <Button Content="Add" 
+                                                        DockPanel.Dock="Left" 
+                                                        Click="AddRegistration"/>
+                                            </DockPanel>
+                                        </Grid>
+                                    </Border>
+                                </Popup>
+                            </Grid>
+
+                        </TabItem>
+                        <TabItem Header="Required Course">
+                            <Grid Background="#eceff1" >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <DataGrid DockPanel.Dock="Top"
+                                          CanUserAddRows="False"
+                                          SelectionMode="Single"
+                                          SelectionUnit="FullRow"
+                                          AutoGenerateColumns="False"
+                                          Background="#eceff1" 
+                                          ItemsSource="{Binding Path=QualificationPrerequisitesList}"
+                                          SelectedItem="{Binding Path=SelectedPrerequisite}">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Course" Binding="{Binding Path=Course}"/>
+                                        <DataGridTextColumn Header="Class Hours" Binding="{Binding Path=CourseHours}"/>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                                <StackPanel Grid.Row="1"
+                                            Orientation="Horizontal"
+                                            Margin="5,10">
+                                    <Button Content="Add" 
+                                            Width="90"                                     
+                                            FontSize="14" 
+                                            Margin="20,0,30,0"
+                                            Click="AddQualificationPrerequisitePopup"/>
+                                    <Button Content="Remove" 
+                                            Width="90" 
+                                            Margin="0,0"
+                                            FontSize="14"
+                                            Click="DeleteQualificationPrerequisite"/>
+                                </StackPanel>
+
+
+                                <Popup x:Name="QualificationPrerequisitePopup"
+                                       Style="{StaticResource PopupStyle}">
+
+                                    <Border BorderThickness="3" 
+                                            BorderBrush="White">
+                                        <Grid  Background="#cfd8dc">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="*"/>
+                                            <RowDefinition Height="Auto"/>
+                                        </Grid.RowDefinitions>
+
+                                        <Label Grid.Row="0"
+                                               Content="Course List"
+                                               FontSize="18"
+                                               FontWeight="Bold"
+                                               HorizontalAlignment="Center"/>
+
+
+                                        <TextBox DockPanel.Dock="Left"
+                                                 Grid.Row="1"
+                                                 FontSize="18"
+                                                 Margin="10,0"
+                                                 materialDesign:HintAssist.Hint="search course. . ."
+                                                 Text="{Binding Path=SearchCourseString, Delay=500, UpdateSourceTrigger=PropertyChanged}"/>
+
+                                        <ListBox Margin="0,5"
+                                                 Grid.Row="2"
+                                                 ItemsSource="{Binding Path=CourseList}"
+                                                 SelectedItem="{Binding Path=SelectedCourse}"
+                                                 HorizontalContentAlignment="Stretch">
+                                            <ListBox.ItemTemplate>
+                                                <DataTemplate>
+                                                    <Border Padding="1" BorderBrush="DarkSlateGray" BorderThickness="1">
+                                                        <StackPanel Margin="1">
+                                                            <TextBlock FontSize="14" Text="{Binding Path=CourseName }"/>
+                                                        </StackPanel>
+                                                    </Border>
+                                                </DataTemplate>
+                                            </ListBox.ItemTemplate>
+                                        </ListBox>
+
+                                            <DockPanel LastChildFill="False" 
+                                                       Margin="30,10"
+                                                       Grid.Row="3">
+                                                <Button Content="Cancel" 
+                                                        DockPanel.Dock="Right"
+                                                        Click="CloseCourseLisPopup"/>
+                                                <Button Content="Add" 
+                                                        DockPanel.Dock="Left" 
+                                                        Click="AddQualificationPrerequisitePopUp"/>
+                                            </DockPanel>
+                                        </Grid>
+                                    </Border>
+                                </Popup>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Openings">
+                            <Grid Background="#FFE5E5E5" >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <DataGrid DockPanel.Dock="Top"
+                                          CanUserAddRows="False"
+                                          SelectionMode="Single"
+                                          SelectionUnit="FullRow"
+                                          AutoGenerateColumns="False"
+                                          Background="#eceff1" 
+                                          ItemsSource="{Binding Path=QualificationOpeningList}">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Opening ID" Binding="{Binding Path=OpeningId}"/>
+                                        <DataGridTextColumn Header="Company" Binding="{Binding Path=CompanyName}"/>
+                                        <DataGridTextColumn Header="Starting Date" Binding="{Binding Path=StartingDate}"/>
+                                        <DataGridTextColumn Header="End Date" Binding="{Binding Path=EndDate}"/>
+                                        <DataGridTextColumn Header="Hourly Rate" Binding="{Binding Path=HourlyPay}"/>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                            </Grid>
+                        </TabItem>
+
+                    </TabControl>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Course" 
+                     x:Name="CourseTab"
+                     Visibility="Collapsed">
+                <Grid Background="#cfd8dc">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height=".6*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width=".5*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Column="0"
+                          Grid.Row="0"
+                          Grid.RowSpan="2"
+                          Margin="5,5,5,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0"
+                               Content="Courses"
+                               FontSize="32"
+                               FontWeight="Bold"
+                               HorizontalAlignment="Center"/>
+
+                        <TextBox Grid.Row="2"
+                                 FontSize="18"
+                                 materialDesign:HintAssist.Hint="search course. . ."
+                                 Text="{Binding Path=SearchText, Delay=500, UpdateSourceTrigger=PropertyChanged}"/>
+
+                        <ListBox Margin="0,5"
+                                 Grid.Row="3"
+                                 ItemsSource="{Binding Path=CourseList}"
+                                 SelectedItem="{Binding Path=SelectedCourse}"
+                                 HorizontalContentAlignment="Stretch">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <Border Padding="1" BorderBrush="DarkSlateGray" BorderThickness="1">
+                                        <StackPanel Margin="1">
+                                            <TextBlock FontSize="16" Text="{Binding Path=CourseName}"/>
+                                            <TextBlock FontSize="12" Text="{Binding Path=CourseId}"/>
+                                        </StackPanel>
+                                    </Border>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+
+                    </Grid>
+
+                    <Grid Grid.Column="2" 
+                          Grid.Row="0" 
+                          Margin="5"
+                          DataContext="{Binding Path=SelectedCourse}">
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition Height="2*"/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <DockPanel LastChildFill="False" 
+                                   Margin="0,0,5,0"
+                                   Grid.Row="0"
+                                   Grid.Column="1"
+                                   Grid.ColumnSpan="3"
+                                   >
+                            <Button Content="Add" 
+                                    DockPanel.Dock="Left" 
+                                    Margin="5,0,0,0"
+                                    Click="BtnAddCourse"/>
+                            <Button Content="Edit" 
+                                    Margin="30,0"
+                                    HorizontalAlignment="Left" 
+                                    Click="BtnEditCourse"/>
+                            <Button Content="Remove" 
+                                    DockPanel.Dock="Right"
+                                    Click="BtnRemoveCourse"/>
+
+                        </DockPanel>
+
+                        
+
+                        <Label Grid.Row="1" Grid.Column="0"
+                               Content="Name"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Right"/>
+                        <TextBlock Grid.Row="1" Grid.Column="1"
+                                   VerticalAlignment="Center" 
+                                   Margin="5" FontSize="18"                                   
+                                   Background="#eceff1"
+                                   Text="{Binding Path=CourseName}"/>
+
+
+                        <Label Grid.Row="1" Grid.Column="2"
+                               Content="ID"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Right"/>
+                        <TextBlock Grid.Row="1" Grid.Column="3"
+                                   VerticalAlignment="Center" 
+                                   Margin="0,0,5,0" 
+                                   Background="#eceff1"
+                                   Text="{Binding Path=CourseId}" />
+
+                        <Label Grid.Row="3" Grid.Column="0"
+                               Content="Hours"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Right"/>
+                        <TextBlock Grid.Row="3" Grid.Column="1"
+                                   VerticalAlignment="Center"
+                                   Margin="5" FontSize="18"
+                                   Background="#eceff1"
+                                   Text="{Binding Path=Hours}"/>
+
+
+                        <Label Grid.Row="2" Grid.Column="0"
+                               Content="Description"
+                               VerticalAlignment="Top"
+                               HorizontalAlignment="Right"/>
+                        <TextBlock Grid.Row="2" Grid.Column="1"
+                                   Grid.ColumnSpan="3"
+                                   Margin="5"
+                                   VerticalAlignment="Stretch"
+                                   Background="#eceff1"
+                                   Text="{Binding Path=Description}" />
+                    </Grid>
+
+                    <TabControl Grid.Row="1" 
+                                Grid.Column="2"
+                                Margin="5"
+                                FontSize="16">
+                        <TabItem Header="Prerequisites">
+                            <Grid Background="#FFE5E5E5" >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <DataGrid DockPanel.Dock="Top"
+                                          CanUserAddRows="False"
+                                          AutoGenerateColumns="False"
+                                          SelectionMode="Single"
+                                          SelectionUnit="FullRow"
+                                          Background="#eceff1" 
+                                          ItemsSource="{Binding Path=CoursePrerequisites}"
+                                          SelectedItem="{Binding Path=SelectedPrerequisite}">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Qualification" Binding="{Binding Path = Qualification}"/>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                                <StackPanel Grid.Row="1"
+                                            Orientation="Horizontal"
+                                            Margin="5,10">
+                                    <Button Content="Add Prerequisite" 
+                                            Width="150" 
+                                            FontSize="14"
+                                            Margin="20,0,30,0" 
+                                            Click="DisplayQualificationPopUp"/>
+                                    <Button Content="Remove" 
+                                            Width="90" 
+                                            FontSize="14"
+                                            Margin="0,0" 
+                                            Click="RemoveCoursePrerequisite"/>
+                                </StackPanel>
+
+                                <Popup x:Name="CoursePrerequisitePopup"
+                                       Style="{StaticResource PopupStyle}">
+
+                                    <Border BorderThickness="3" 
+                                            BorderBrush="White">
+                                        <Grid Background="#cfd8dc">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="*"/>
+                                            <RowDefinition Height="Auto"/>
+                                        </Grid.RowDefinitions>
+
+                                        <Label Grid.Row="0"
+                                               Content="Qualifications List"
+                                               FontSize="18"
+                                               FontWeight="Bold"
+                                               HorizontalAlignment="Center"/>
+
+                                        <ListBox Margin="0,5"
+                                                 Grid.Row="2"
+                                                 ItemsSource="{Binding Path=QualificationList}"
+                                                 SelectedItem="{Binding Path=SelectedQualification}"
+                                                 HorizontalContentAlignment="Stretch">
+                                            <ListBox.ItemTemplate>
+                                                <DataTemplate>
+                                                    <Border Padding="1" BorderBrush="DarkSlateGray" BorderThickness="1">
+                                                        <StackPanel Margin="1">
+                                                            <TextBlock FontSize="14" Text="{Binding Path=QualificationCode}"/>
+                                                            <TextBlock FontSize="11" Text="{Binding Path=QualificationId}"/>
+                                                        </StackPanel>
+                                                    </Border>
+                                                </DataTemplate>
+                                            </ListBox.ItemTemplate>
+                                        </ListBox>
+
+                                        <DockPanel LastChildFill="False" 
+                                                   Margin="30,0"
+                                                   Grid.Row="3">
+                                            <Button Content="Cancel" 
+                                                    DockPanel.Dock="Right"
+                                                    Click="CancelCoursePrerequisite"/>
+                                            <Button Content="Add" 
+                                                    DockPanel.Dock="Left" 
+                                                    Click="AddCoursePrerequisite"/>
+                                        </DockPanel>
+                                    </Grid>
+
+                                    </Border>
+
+                                </Popup>
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Training Session">
+                            <Grid Background="#FFE5E5E5" >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <DataGrid DockPanel.Dock="Top"
+                                          CanUserAddRows="False"
+                                          AutoGenerateColumns="False"
+                                          SelectionMode="Single"
+                                          SelectionUnit="FullRow"
+                                          Background="#eceff1" 
+                                          ItemsSource="{Binding Path=CourseTrainingSessions}">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Session ID" Binding="{Binding Path = SessionId}"/>
+                                        <DataGridTextColumn Header="Fee" Binding="{Binding Path = Fee}"/>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                                
+                            </Grid>
+                        </TabItem>
+                    </TabControl>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Training Session"
+                     x:Name="SessionTab"
+                     Visibility="Collapsed">
+                <Grid Background="#cfd8dc">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height=".4*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width=".5*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Column="0"
+                          Grid.Row="0"
+                          Grid.RowSpan="2"
+                          Margin="5">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0"
+                               Content="Training Sessions"
+                               FontSize="32"
+                               FontWeight="Bold"
+                               HorizontalAlignment="Center"/>
+
+                        <TextBox DockPanel.Dock="Left"
+                                 Grid.Row="2"
+                                 FontSize="18"
+                                 materialDesign:HintAssist.Hint="search training sessions. . ."
+                                 Text="{Binding Path=SearchText, Delay=500, UpdateSourceTrigger=PropertyChanged}"/>
+
+                        <ListBox Margin="0,5"
+                                 Grid.Row="3"
+                                 ItemsSource="{Binding Path=SessionList}"
+                                 SelectedItem="{Binding Path=SelectedTrainingSession}"
+                                 HorizontalContentAlignment="Stretch">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <Border Padding="1" BorderBrush="DarkSlateGray" BorderThickness="1">
+                                        <StackPanel Margin="1">
+                                            <TextBlock FontSize="16" Text="{Binding Path=CourseName}"/>
+                                            <TextBlock FontSize="12" Text="{Binding Path=SessionId}"/>
+                                        </StackPanel>
+                                    </Border>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+
+                    </Grid>
+
+                    <Grid Grid.Column="2" Grid.Row="0" Margin="5"
+                          DataContext="{Binding Path=SelectedTrainingSession}">
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <DockPanel LastChildFill="False" 
+                                   Margin="0,0,5,0"
+                                   Grid.Row="0"
+                                   Grid.Column="1"
+                                   Grid.ColumnSpan="3">
+
+                            <Button Content="Add" 
+                                    DockPanel.Dock="Left" 
+                                    Click="BtnAddSession"/>
+                            <Button Content="Edit"
+                                    DockPanel.Dock="Left" 
+                                    Margin="30,0"
+                                    Click="BtnEditSession"/>
+                            <Button Content="Remove" 
+                                    DockPanel.Dock="Right"
+                                    Click="BtnRemoveSession"/>
+                        </DockPanel>
+
+
+                        <Label Grid.Row="1" Grid.Column="0"
+                               Content="ID"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Right"/>
+                        <TextBlock Grid.Row="1" Grid.Column="1"
+                                   VerticalAlignment="Center" 
+                                   Margin="5" 
+                                   Background="#eceff1"
+                                   Text="{Binding Path=SessionId}"/>
+
+                        <Label Grid.Row="1" Grid.Column="2"
+                               Content="Course"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Right"/>
+                        <TextBlock Grid.Row="1" Grid.Column="3"
+                                   VerticalAlignment="Center" 
+                                   Margin="5" 
+                                   Background="#eceff1"
+                                   Text="{Binding Path=CourseName}"/>
+
+
+                        <Label Grid.Row="2" Grid.Column="0"
+                               Content="Fee"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Right"/>
+                        <TextBlock Grid.Row="2" Grid.Column="1"
+                                   VerticalAlignment="Center" 
+                                   Margin="5" 
+                                   Background="#eceff1"
+                                   Text="{Binding Path=Fee}"/>
+
+                        <Label Grid.Row="2" Grid.Column="2"
+                               Content="Capacity"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Right"/>
+                        <TextBlock Grid.Row="2" Grid.Column="3"
+                                   VerticalAlignment="Center" 
+                                   Margin="5" 
+                                   Background="#eceff1"
+                                   Text="{Binding Path=Capacity}"/>
+
+
+                    </Grid>
+
+                    <TabControl Grid.Row="1" 
+                                Grid.Column="2" 
+                                Margin="5"
+                                FontSize="16">
+                        <TabItem Header="Enrolled Candidate" >
+                            <Grid Background="#eceff1">
+                                <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <DataGrid Grid.Row="0"
+                                      CanUserAddRows="False"
+                                      AutoGenerateColumns="False"
+                                      SelectionMode="Single"
+                                      SelectionUnit="FullRow"
+                                      Background="#eceff1" 
+                                      ItemsSource="{Binding Path=RegisteredCandidates}"
+                                      SelectedItem="{Binding Path=SelectedRegistration}">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Registration ID" Binding="{Binding Path = RegistrationId}"/>
+                                        <DataGridTextColumn Header="Candidate" Binding="{Binding Path = CandidateName}"/>
+                                        <DataGridTextColumn Header="Registration Date" Binding="{Binding Path = RegistrationDate}"/>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                                <StackPanel Grid.Row="1"
+                                        Orientation="Horizontal"
+                                        Margin="5,10,5,10" Grid.ColumnSpan="2">
+                                    <Button Content="Add" 
+                                        Margin="20,0,30,0" 
+                                        Click="BtnCandidatePopUp"/>
+                                    <Button Content="Drop" 
+                                        Click="BtnDropCandidate"/>
+                                </StackPanel>
+
+                                <Popup x:Name="CandidatePopUp"
+                                       Style="{StaticResource PopupStyle}">
+                                    <Border BorderThickness="3" 
+                                            BorderBrush="White">
+
+                                        <Grid Background="#cfd8dc">
+
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition/>
+                                                <RowDefinition Height="Auto"/>
+                                            </Grid.RowDefinitions>
+                                        <Label HorizontalAlignment="Center"
+                                               Content="Candidate List"
+                                               Grid.Row="0"
+                                               FontSize="18"/>
+
+                                        <TextBox DockPanel.Dock="Left"
+                                                 Grid.Row="1"
+                                                 FontSize="18"
+                                                 Margin="10,0"
+                                                 materialDesign:HintAssist.Hint="search candidate. . ."
+                                                 Text="{Binding Path=SearchCandidateString, Delay=500, UpdateSourceTrigger=PropertyChanged}"/>
+
+
+                                        <ListBox Margin="0,5"
+                                                 Grid.Row="2"
+                                                 ItemsSource="{Binding Path=CandidateList}"
+                                                 SelectedItem="{Binding Path=SelectedCandidate}"
+                                                 HorizontalContentAlignment="Stretch">
+                                            <ListBox.ItemTemplate>
+                                                <DataTemplate>
+                                                    <Border Padding="1" BorderBrush="DarkSlateGray" BorderThickness="1">
+                                                        <StackPanel Margin="1">
+                                                            <TextBlock FontSize="14" Text="{Binding Path=CandidateFullName}"/>
+                                                            <TextBlock FontSize="12" Text="{Binding Path=CandidateNumber}"/>
+                                                        </StackPanel>
+                                                    </Border>
+                                                </DataTemplate>
+                                            </ListBox.ItemTemplate>
+                                        </ListBox>
+
+                                        <DockPanel LastChildFill="False" 
+                                                   Margin="30,10"
+                                                   Grid.Row="3">
+                                            <Button Content="Cancel" 
+                                                    DockPanel.Dock="Right"
+                                                    Width="75"
+                                                    FontSize="14"
+                                                    Click="BtnCancelRegistration"/>
+                                            <Button Content="Enroll" 
+                                                    DockPanel.Dock="Left" 
+                                                    Width="75"
+                                                    FontSize="14" 
+                                                    Click="BtnEnrollCandidate"/>
+                                        </DockPanel>
+
+
+                                    </Grid>
+                                    </Border>
+                                </Popup>
+
+
+                            </Grid>
+                        </TabItem>
+                        <TabItem Header="Schedules">
+                            <Grid Background="#eceff1" >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <DataGrid Grid.Row="0"
+                                          CanUserAddRows="False"
+                                          AutoGenerateColumns="False"
+                                          SelectionMode="Single"
+                                          SelectionUnit="FullRow"
+                                          Background="#eceff1" 
+                                          ItemsSource="{Binding Path=SessionSchedules}"
+                                          SelectedItem="{Binding Path=SelectedSchedule}">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Day" Binding="{Binding Path = Day}"/>
+                                        <DataGridTextColumn Header="Start Time" Binding="{Binding Path = StartTime}"/>
+                                        <DataGridTextColumn Header="End Time" Binding="{Binding Path = EndTime}"/>
+                                        <DataGridTextColumn Header="Duration" Binding="{Binding Path = Duration}"/>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                                <DockPanel Grid.Row="1"
+                                            Grid.ColumnSpan="2"
+                                            Width="400"
+                                            Margin="20,5"
+                                            HorizontalAlignment="Left"
+                                            LastChildFill="False" >
+                                    <Button DockPanel.Dock="Left"
+                                            Content="Add" 
+                                            Margin="0,0,20,0" 
+                                            Click="BtnAddSchedule"/>
+                                    <Button DockPanel.Dock="Left"
+                                            Content="Edit" 
+                                            Margin="0,0,20,0" 
+                                            Click="BtnEditSchedule"/>
+
+                                    <Button DockPanel.Dock="Right"
+                                            Content="Remove" 
+                                            Margin="0,0"
+                                            Click="BtnDeleteSession"/>
+                                </DockPanel>
+                            </Grid>
+                        </TabItem>
+                    </TabControl>
+
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+
+    </Grid>
+</Window>

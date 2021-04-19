@@ -1,0 +1,81 @@
+﻿<Window x:Class="TEC_Interface.View.Course.AddCourseView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TEC_Interface.View.Course"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="AddCourse" Height="250" Width="400"
+        WindowStartupLocation="CenterScreen">
+    <Grid Background="#cfd8dc">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0"
+               Content="New Course"
+               HorizontalAlignment="Center"
+               FontSize="24"/>
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0" Grid.Column="0"
+                   Content="Course Name" 
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"/>
+
+            <TextBox Grid.Row="0" Grid.Column="1"
+                     VerticalAlignment="Center"
+                     Margin="0,0,20,0"
+                     materialDesign:HintAssist.Hint="Enter course name"
+                     Text="{Binding Path=Name}"/>
+
+            <Label Grid.Row="1" Grid.Column="0"
+                   Content="Duration" 
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"/>
+
+            <TextBox Grid.Row="1" Grid.Column="1"
+                     VerticalAlignment="Center"
+                     Margin="0,0,20,0"
+                     PreviewTextInput="AcceptDecimal"
+                     materialDesign:HintAssist.Hint="Enter required course duration"
+                     Text="{Binding Path=Hours}"/>
+
+            <Label Grid.Row="2" Grid.Column="0"
+                   Content="Description" 
+                   VerticalAlignment="Top"
+                   HorizontalAlignment="Right"/>
+
+            <TextBox Grid.Row="2" Grid.Column="1"
+                     Margin="0,5,20,0"
+                     materialDesign:HintAssist.Hint="Enter course description"
+                     Text="{Binding Path=Description}"/>
+
+        </Grid>
+
+        <DockPanel Grid.Row="2" LastChildFill="False"
+                   Width="250"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   Margin="0,10">
+
+            <Button DockPanel.Dock="Left"
+                    Content="Add"
+                    Click="BtnAddCourse"/>
+            <Button DockPanel.Dock="Right"
+                    Content="Cancel" Click="BtnCancelAddCourse"/>
+        </DockPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ApplicationService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Naanep_FinalProject\DataLayer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ServiceLayer">
+      <HintPath>..\TEC_Interface\bin\Debug\netcoreapp3.1\ServiceLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="TEC_Interface">
+      <HintPath>..\TEC_Interface\bin\Debug\netcoreapp3.1\TEC_Interface.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,30 @@
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\Naanep_FinalProject\bin\Debug\netcoreapp3.1\DataLayer.deps.json
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\Naanep_FinalProject\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.json
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\Naanep_FinalProject\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\Naanep_FinalProject\bin\Debug\netcoreapp3.1\DataLayer.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\Naanep_FinalProject\bin\Debug\netcoreapp3.1\DataLayer.pdb
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\Naanep_FinalProject\obj\Debug\netcoreapp3.1\DataLayer.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\Naanep_FinalProject\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\Naanep_FinalProject\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfo.cs
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\Naanep_FinalProject\obj\Debug\netcoreapp3.1\DataLayer.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\Naanep_FinalProject\obj\Debug\netcoreapp3.1\DataLayer.pdb
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\Naanep_FinalProject\bin\Debug\netcoreapp3.1\DataLayer.deps.json
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\Naanep_FinalProject\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.json
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\Naanep_FinalProject\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.dev.json
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\Naanep_FinalProject\bin\Debug\netcoreapp3.1\DataLayer.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\Naanep_FinalProject\bin\Debug\netcoreapp3.1\DataLayer.pdb
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\Naanep_FinalProject\obj\Debug\netcoreapp3.1\DataLayer.csprojAssemblyReference.cache
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\Naanep_FinalProject\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfoInputs.cache
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\Naanep_FinalProject\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfo.cs
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\Naanep_FinalProject\obj\Debug\netcoreapp3.1\DataLayer.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\Naanep_FinalProject\obj\Debug\netcoreapp3.1\DataLayer.pdb
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\Naanep_FinalProject\bin\Debug\netcoreapp3.1\DataLayer.deps.json
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\Naanep_FinalProject\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.json
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\Naanep_FinalProject\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.dev.json
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\Naanep_FinalProject\bin\Debug\netcoreapp3.1\DataLayer.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\Naanep_FinalProject\bin\Debug\netcoreapp3.1\DataLayer.pdb
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\Naanep_FinalProject\obj\Debug\netcoreapp3.1\DataLayer.csprojAssemblyReference.cache
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\Naanep_FinalProject\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfoInputs.cache
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\Naanep_FinalProject\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfo.cs
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\Naanep_FinalProject\obj\Debug\netcoreapp3.1\DataLayer.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\Naanep_FinalProject\obj\Debug\netcoreapp3.1\DataLayer.pdb

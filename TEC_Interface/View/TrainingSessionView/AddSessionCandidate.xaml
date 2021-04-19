@@ -1,0 +1,64 @@
+﻿<Window x:Class="TEC_Interface.View.TrainingSession.AddSessionCandidate"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TEC_Interface.View.TrainingSession"
+        mc:Ignorable="d"
+        Title="AddSessionCompany" Height="450" Width="450">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0"
+               Content="Enroll New Company"
+               HorizontalAlignment="Center"
+               FontSize="24"/>
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Grid.Row="0" Grid.Column="0"
+                   Content="Session ID" 
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"/>
+
+            <TextBlock Grid.Row="0" Grid.Column="1"
+                      VerticalAlignment="Center"
+                      Margin="0,0,20,0"/>
+
+            <ListView Grid.Row="1"
+                      Grid.Column="0"
+                      Grid.ColumnSpan="2"
+                      Margin="5"/>
+
+
+        </Grid>
+
+        <DockPanel Grid.Row="2" LastChildFill="False"
+                   Width="250"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   Margin="0,10">
+
+            <Button DockPanel.Dock="Left"
+                    Width="75"
+                    Content="Enroll"
+                    FontSize="18"/>
+            <Button DockPanel.Dock="Right"
+                    Content="Cancel"
+                    Width="75"
+                    FontSize="18"/>
+        </DockPanel>
+    </Grid>
+</Window>

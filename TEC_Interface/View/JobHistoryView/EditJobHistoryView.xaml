@@ -1,0 +1,127 @@
+﻿<Window x:Class="TEC_Interface.View.JobHistory.EditJobHistoryView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TEC_Interface.View.JobHistory"
+        xmlns:sys="clr-namespace:System;assembly=System.Runtime"
+        mc:Ignorable="d"
+        Title="AddJobHistory" Height="350" Width="350"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid Background="#cfd8dc">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid Row="1"  Column="0"  Margin="10,0">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0" Grid.Column="0"
+                   Content="History ID" 
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"/>
+
+            <TextBlock Grid.Row="0" Grid.Column="1"
+                       VerticalAlignment="Center"
+                       Margin="0,0,20,0"                     
+                       Background="#eceff1"
+                       Text="{Binding JobHistoryId}"/>
+
+            <Label Grid.Row="1" Grid.Column="0"
+                   Content="Candidate" 
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"/>
+
+            <TextBlock Grid.Row="1" Grid.Column="1"
+                       VerticalAlignment="Center"
+                       Margin="0,0,20,0"
+                       Background="#eceff1"
+                       Text="{Binding Candidate}"/>
+
+            <Label Grid.Row="2" Grid.Column="0"
+                   Content="Company" 
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"/>
+
+            <TextBlock Grid.Row="2" Grid.Column="1"
+                       VerticalAlignment="Center"
+                       Margin="0,0,20,0"
+                       Background="#eceff1"
+                       Text="{Binding Company}"/>
+
+
+            <Label Grid.Row="3" Grid.Column="0"
+                   Content="Worked Form" 
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"/>
+
+            <DatePicker Grid.Row="3" Grid.Column="1"
+                      VerticalAlignment="Center"
+                      Margin="0,0,20,0"
+                       Background="#eceff1"
+                      SelectedDate="{Binding WorkedFrom}"/>
+            <Label Grid.Row="4" Grid.Column="0"
+                   Content="Worked To" 
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"/>
+
+            <DatePicker Grid.Row="4" Grid.Column="1"
+                     VerticalAlignment="Center"
+                     Margin="0,0,20,0"
+                     Background="#eceff1"
+                     SelectedDate="{Binding WorkedTo}"/>
+
+            <Label Grid.Row="5" Grid.Column="0"
+                   Content="Work Hours" 
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"/>
+
+            <TextBox Grid.Row="5" Grid.Column="1"
+                     VerticalAlignment="Center"
+                     Margin="0,0,20,0"
+                     PreviewTextInput="AcceptInt"
+                     Text="{Binding WorkHours}"/>
+
+            
+
+
+        </Grid>
+
+        <Label Grid.Row="0"
+               Content="Edit Job History"
+               HorizontalAlignment="Center"
+               FontSize="24"
+               Grid.ColumnSpan="2"/>
+
+        <DockPanel Grid.Row="2" LastChildFill="False"
+                   Width="250"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   Margin="0,0,0,10">
+
+            <Button DockPanel.Dock="Left"
+                    Content="Save"
+                    Width="100"
+                    FontSize="18"
+                    Click="BtnSaveHistoryChange"/>
+            <Button DockPanel.Dock="Right"
+                    Content="Cancel"
+                    Width="100"
+                    FontSize="18"
+                    Click="CancelChange"/>
+        </DockPanel>
+    </Grid>
+</Window>

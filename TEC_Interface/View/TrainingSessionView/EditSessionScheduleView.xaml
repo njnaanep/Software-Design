@@ -1,0 +1,107 @@
+﻿<Window x:Class="TEC_Interface.View.TrainingSessionView.EditSessionScheduleView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TEC_Interface.View.TrainingSessionView"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="EditSessionScheduleView" Height="250" Width="300"
+        WindowStartupLocation="CenterScreen">
+    <Grid Background="#cfd8dc">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0"
+               Content="Edit Schedule"
+               HorizontalContentAlignment="Center"
+               FontSize="18"
+               FontWeight="Bold"/>
+
+        <Grid Grid.Row="1">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Label Grid.Row="0" Grid.Column="0"
+                   Content="Schedule ID"
+                   HorizontalContentAlignment="Right"
+                   VerticalAlignment="Center"/>
+            <TextBlock Grid.Row="0" Grid.Column="1"
+                       Margin="5"
+                       VerticalAlignment="Center"
+                       Background="#eceff1"
+                       Text="{Binding Path=ScheduleToEdit.ScheduleId}"/>
+
+            <Label Grid.Row="1" Grid.Column="0"
+                   Content="Day"
+                   HorizontalContentAlignment="Right"
+                   VerticalAlignment="Center"/>
+
+            <ComboBox Grid.Row="1" Grid.Column="1"
+                       Margin="5"
+                       materialDesign:HintAssist.Hint="Pick Day"
+                       VerticalAlignment="Center" 
+                       DisplayMemberPath="DayName"
+                       ItemsSource="{Binding Path=DayList}"
+                       SelectedItem="{Binding Path=SelectedDay}"/>
+
+            <Label Grid.Row="2" Grid.Column="0"
+                   Content="Start Time"
+                   HorizontalContentAlignment="Right"
+                   VerticalAlignment="Center"/>
+
+            <materialDesign:TimePicker Grid.Row="2" Grid.Column="1"
+                                       Margin="5,0"
+                                       Is24Hours="False"
+                                       x:Name="StartTimePicker"
+                                       SelectedTime="{Binding Path=StartTime}"
+                                       HorizontalContentAlignment="Stretch"/>
+
+
+            <Label Grid.Row="3" Grid.Column="0"
+                   Content="End Time"
+                   HorizontalContentAlignment="Right"
+                   VerticalAlignment="Center"/>
+
+            <materialDesign:TimePicker Grid.Row="3" Grid.Column="1"
+                                       Margin="5,0"
+                                       Is24Hours="False"
+                                       x:Name="EndTimePicker"
+                                       SelectedTime="{Binding Path=EndTime}"
+                                       HorizontalContentAlignment="Stretch"/>
+
+
+        </Grid>
+
+        <DockPanel Grid.Row="2"
+                   LastChildFill="False"
+                   Margin="30,5">
+
+            <Button DockPanel.Dock="Left"
+                    Content="Save"
+                    Width="80" 
+                    Click="BtnScheduleSaveChange"/>
+            <Button DockPanel.Dock="Right"
+                    Content="Cancel"
+                    Width="80" 
+                    Click="BtnCancelScheduleEdit"/>
+
+
+        </DockPanel>
+
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ShowAllFiles>true</ShowAllFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="View\CandidateView\AddCandidatesVIew.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\CandidateView\EditCandidateView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\CompanyView\AddCompanyView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\CompanyView\EditCompanyView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\CourseView\AddCourseView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\CourseView\EditCourseView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\JobHistoryView\AddJobHistoryView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\JobHistoryView\EditJobHistoryView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\OpeningView\AddOpeningView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\OpeningView\EditOpeningView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\QualificationsView\AddQualificationView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\QualificationsView\EditQualificationView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\TestView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\TrainingSessionView\AddSessionScheduleView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\TrainingSessionView\AddSessionView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\TrainingSessionView\EditSessionScheduleView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\TrainingSessionView\EditSessionView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\CandidateView\AddCandidatesVIew.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\CandidateView\EditCandidateView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\CompanyView\AddCompanyView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\CompanyView\EditCompanyView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\CourseView\AddCourseView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\CourseView\EditCourseView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\JobHistoryView\AddJobHistoryView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\JobHistoryView\EditJobHistoryView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\OpeningView\AddOpeningView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\OpeningView\EditOpeningView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\QualificationsView\AddQualificationView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\QualificationsView\EditQualificationView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\TestView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\TrainingSessionView\AddSessionScheduleView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\TrainingSessionView\AddSessionView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\TrainingSessionView\EditSessionScheduleView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\TrainingSessionView\EditSessionView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

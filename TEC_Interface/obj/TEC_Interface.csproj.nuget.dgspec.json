@@ -1,0 +1,293 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\ACADS\\2nd - 2nd sem\\Software Design\\Project\\TemporaryEmployment\\TEC_Interface\\TEC_Interface.csproj": {}
+  },
+  "projects": {
+    "F:\\ACADS\\2nd - 2nd sem\\Software Design\\Project\\TemporaryEmployment\\Naanep_FinalProject\\DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\ACADS\\2nd - 2nd sem\\Software Design\\Project\\TemporaryEmployment\\Naanep_FinalProject\\DataLayer.csproj",
+        "projectName": "DataLayer",
+        "projectPath": "F:\\ACADS\\2nd - 2nd sem\\Software Design\\Project\\TemporaryEmployment\\Naanep_FinalProject\\DataLayer.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "F:\\ACADS\\2nd - 2nd sem\\Software Design\\Project\\TemporaryEmployment\\Naanep_FinalProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.114\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\ACADS\\2nd - 2nd sem\\Software Design\\Project\\TemporaryEmployment\\ServiceLayer\\ServiceLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\ACADS\\2nd - 2nd sem\\Software Design\\Project\\TemporaryEmployment\\ServiceLayer\\ServiceLayer.csproj",
+        "projectName": "ServiceLayer",
+        "projectPath": "F:\\ACADS\\2nd - 2nd sem\\Software Design\\Project\\TemporaryEmployment\\ServiceLayer\\ServiceLayer.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "F:\\ACADS\\2nd - 2nd sem\\Software Design\\Project\\TemporaryEmployment\\ServiceLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "F:\\ACADS\\2nd - 2nd sem\\Software Design\\Project\\TemporaryEmployment\\Naanep_FinalProject\\DataLayer.csproj": {
+                "projectPath": "F:\\ACADS\\2nd - 2nd sem\\Software Design\\Project\\TemporaryEmployment\\Naanep_FinalProject\\DataLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.114\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\ACADS\\2nd - 2nd sem\\Software Design\\Project\\TemporaryEmployment\\TEC_Interface\\TEC_Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\ACADS\\2nd - 2nd sem\\Software Design\\Project\\TemporaryEmployment\\TEC_Interface\\TEC_Interface.csproj",
+        "projectName": "TEC_Interface",
+        "projectPath": "F:\\ACADS\\2nd - 2nd sem\\Software Design\\Project\\TemporaryEmployment\\TEC_Interface\\TEC_Interface.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "F:\\ACADS\\2nd - 2nd sem\\Software Design\\Project\\TemporaryEmployment\\TEC_Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "F:\\ACADS\\2nd - 2nd sem\\Software Design\\Project\\TemporaryEmployment\\Naanep_FinalProject\\DataLayer.csproj": {
+                "projectPath": "F:\\ACADS\\2nd - 2nd sem\\Software Design\\Project\\TemporaryEmployment\\Naanep_FinalProject\\DataLayer.csproj"
+              },
+              "F:\\ACADS\\2nd - 2nd sem\\Software Design\\Project\\TemporaryEmployment\\ServiceLayer\\ServiceLayer.csproj": {
+                "projectPath": "F:\\ACADS\\2nd - 2nd sem\\Software Design\\Project\\TemporaryEmployment\\ServiceLayer\\ServiceLayer.csproj"
+              },
+              "F:\\ACADS\\2nd - 2nd sem\\Software Design\\Project\\TemporaryEmployment\\TEC_TestCase\\TEC_TestCase.csproj": {
+                "projectPath": "F:\\ACADS\\2nd - 2nd sem\\Software Design\\Project\\TemporaryEmployment\\TEC_TestCase\\TEC_TestCase.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.114\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\ACADS\\2nd - 2nd sem\\Software Design\\Project\\TemporaryEmployment\\TEC_TestCase\\TEC_TestCase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\ACADS\\2nd - 2nd sem\\Software Design\\Project\\TemporaryEmployment\\TEC_TestCase\\TEC_TestCase.csproj",
+        "projectName": "TEC_TestCase",
+        "projectPath": "F:\\ACADS\\2nd - 2nd sem\\Software Design\\Project\\TemporaryEmployment\\TEC_TestCase\\TEC_TestCase.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "F:\\ACADS\\2nd - 2nd sem\\Software Design\\Project\\TemporaryEmployment\\TEC_TestCase\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "F:\\ACADS\\2nd - 2nd sem\\Software Design\\Project\\TemporaryEmployment\\Naanep_FinalProject\\DataLayer.csproj": {
+                "projectPath": "F:\\ACADS\\2nd - 2nd sem\\Software Design\\Project\\TemporaryEmployment\\Naanep_FinalProject\\DataLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.114\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

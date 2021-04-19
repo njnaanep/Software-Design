@@ -1,0 +1,72 @@
+﻿
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="EfClasses\Application.cs" />
+    <Compile Remove="EfClasses\PlacementConfig.cs" />
+    <Compile Remove="EfCode\Configuration\ApplicationConfig.cs" />
+    <Compile Remove="Migrations\20200218053522_TEC1.0.cs" />
+    <Compile Remove="Migrations\20200218053522_TEC1.0.Designer.cs" />
+    <Compile Remove="Migrations\20200218061027_TECv1.1.cs" />
+    <Compile Remove="Migrations\20200218061027_TECv1.1.Designer.cs" />
+    <Compile Remove="Migrations\20200218084047_TECv1.2.cs" />
+    <Compile Remove="Migrations\20200218084047_TECv1.2.Designer.cs" />
+    <Compile Remove="Migrations\20200218090150_TECv1.3.cs" />
+    <Compile Remove="Migrations\20200218090150_TECv1.3.Designer.cs" />
+    <Compile Remove="Migrations\20200218090216_TECv1.4.cs" />
+    <Compile Remove="Migrations\20200218090216_TECv1.4.Designer.cs" />
+    <Compile Remove="Migrations\20200218090557_TECv1.0.cs" />
+    <Compile Remove="Migrations\20200218090557_TECv1.0.Designer.cs" />
+    <Compile Remove="Migrations\20200218090946_TECv1.1.cs" />
+    <Compile Remove="Migrations\20200218090946_TECv1.1.Designer.cs" />
+    <Compile Remove="Migrations\20200218104628_TECv1.2.cs" />
+    <Compile Remove="Migrations\20200218104628_TECv1.2.Designer.cs" />
+    <Compile Remove="Migrations\20200218104854_TECv1.0.cs" />
+    <Compile Remove="Migrations\20200218104854_TECv1.0.Designer.cs" />
+    <Compile Remove="Migrations\20200218110628_TECv1.1.cs" />
+    <Compile Remove="Migrations\20200218110628_TECv1.1.Designer.cs" />
+    <Compile Remove="Migrations\20200218151134_TECv1.0.cs" />
+    <Compile Remove="Migrations\20200218151134_TECv1.0.Designer.cs" />
+    <Compile Remove="Migrations\20200221115842_TECv1.0.cs" />
+    <Compile Remove="Migrations\20200221115842_TECv1.0.Designer.cs" />
+    <Compile Remove="Migrations\20200221115941_TECv1.0.cs" />
+    <Compile Remove="Migrations\20200221115941_TECv1.0.Designer.cs" />
+    <Compile Remove="Migrations\20200221120627_TECv1.0.cs" />
+    <Compile Remove="Migrations\20200221120627_TECv1.0.Designer.cs" />
+    <Compile Remove="Migrations\20200221133859_TECv1.0.cs" />
+    <Compile Remove="Migrations\20200221133859_TECv1.0.Designer.cs" />
+    <Compile Remove="Migrations\20200221140437_TECv1.0.cs" />
+    <Compile Remove="Migrations\20200221140437_TECv1.0.Designer.cs" />
+    <Compile Remove="Migrations\20200301070144_TECv1.5.cs" />
+    <Compile Remove="Migrations\20200301070144_TECv1.5.Designer.cs" />
+    <Compile Remove="Migrations\20200302144428_TEC.cs" />
+    <Compile Remove="Migrations\20200302144428_TEC.Designer.cs" />
+    <Compile Remove="Migrations\20200302151432_TEC.cs" />
+    <Compile Remove="Migrations\20200302151432_TEC.Designer.cs" />
+    <Compile Remove="Migrations\20200302152347_TEC.cs" />
+    <Compile Remove="Migrations\20200302152347_TEC.Designer.cs" />
+    <Compile Remove="Migrations\20200302152754_TEC.cs" />
+    <Compile Remove="Migrations\20200302152754_TEC.Designer.cs" />
+    <Compile Remove="Migrations\20200302155435_TEC.cs" />
+    <Compile Remove="Migrations\20200302155435_TEC.Designer.cs" />
+    <Compile Remove="Migrations\20200305165746_fix optional data.cs" />
+    <Compile Remove="Migrations\20200305165746_fix optional data.Designer.cs" />
+    <Compile Remove="Migrations\20200314093637_Added ID to qualification.cs" />
+    <Compile Remove="Migrations\20200314093637_Added ID to qualification.Designer.cs" />
+    <Compile Remove="Migrations\20200316132728_TEC.cs" />
+    <Compile Remove="Migrations\20200316132728_TEC.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>

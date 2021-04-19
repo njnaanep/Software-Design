@@ -1,0 +1,51 @@
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\ServiceLayer.deps.json
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\ServiceLayer.runtimeconfig.json
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\ServiceLayer.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\ServiceLayer.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\ServiceLayer.pdb
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\DataLayer.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\DataLayer.pdb
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\obj\Debug\netcoreapp3.1\ServiceLayer.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\obj\Debug\netcoreapp3.1\ServiceLayer.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\obj\Debug\netcoreapp3.1\ServiceLayer.AssemblyInfo.cs
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\obj\Debug\netcoreapp3.1\ServiceLayer.csproj.CopyComplete
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\obj\Debug\netcoreapp3.1\ServiceLayer.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\obj\Debug\netcoreapp3.1\ServiceLayer.pdb
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\TEC_Interface.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\TEC_Interface.pdb
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\DataLayer.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\ServiceLayer.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\TEC_Interface.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\DataLayer.pdb
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\ServiceLayer.pdb
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\TEC_Interface.pdb
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\obj\Debug\netcoreapp3.1\ServiceLayer.csprojAssemblyReference.cache
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\obj\Debug\netcoreapp3.1\ServiceLayer.AssemblyInfoInputs.cache
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\obj\Debug\netcoreapp3.1\ServiceLayer.AssemblyInfo.cs
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\obj\Debug\netcoreapp3.1\ServiceLayer.csproj.CopyComplete
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\obj\Debug\netcoreapp3.1\ServiceLayer.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\obj\Debug\netcoreapp3.1\ServiceLayer.pdb
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\ServiceLayer.deps.json
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\ServiceLayer.runtimeconfig.json
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\ServiceLayer.runtimeconfig.dev.json
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\DataLayer.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\ServiceLayer.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\TEC_Interface.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\DataLayer.pdb
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\ServiceLayer.pdb
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\TEC_Interface.pdb
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\ServiceLayer\obj\Debug\netcoreapp3.1\ServiceLayer.csprojAssemblyReference.cache
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\ServiceLayer\obj\Debug\netcoreapp3.1\ServiceLayer.AssemblyInfoInputs.cache
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\ServiceLayer\obj\Debug\netcoreapp3.1\ServiceLayer.AssemblyInfo.cs
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\ServiceLayer\obj\Debug\netcoreapp3.1\ServiceLayer.csproj.CopyComplete
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\ServiceLayer\obj\Debug\netcoreapp3.1\ServiceLayer.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\ServiceLayer\obj\Debug\netcoreapp3.1\ServiceLayer.pdb
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\ServiceLayer.deps.json
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\ServiceLayer.runtimeconfig.json
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\ServiceLayer\bin\Debug\netcoreapp3.1\ServiceLayer.runtimeconfig.dev.json

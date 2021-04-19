@@ -1,0 +1,86 @@
+﻿<Window x:Class="TEC_Interface.View.TrainingSession.AddSessionView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TEC_Interface.View.TrainingSession"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="AddSession" Height="250" Width="300"
+        WindowStartupLocation="CenterScreen">
+    <Grid Background="#cfd8dc">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0"
+               Content="New Training Session"
+               HorizontalAlignment="Center"
+               FontSize="24"/>
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0" Grid.Column="0"
+                   Content="Course" 
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"/>
+
+            <ComboBox Grid.Row="0" Grid.Column="1"
+                     VerticalAlignment="Center"
+                     Margin="0,0,20,0"
+                     DisplayMemberPath="CourseName"
+                     materialDesign:HintAssist.Hint="Select Course"
+                     ItemsSource="{Binding Path=CourseList}"
+                     SelectedItem="{Binding Path=SelectedCourse}"/>
+
+            <Label Grid.Row="1" Grid.Column="0"
+                   Content="Fee"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"/>
+
+            <TextBox Grid.Row="1" Grid.Column="1"
+                     VerticalAlignment="Center"
+                     Margin="0,0,20,0"
+                     materialDesign:HintAssist.Hint="Enter Session Fee"
+                     PreviewTextInput="AcceptDecimal"
+                     Text="{Binding Path=Fee}"/>
+
+            <Label Grid.Row="2" Grid.Column="0"
+                   Content="Capacity"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Right"/>
+
+            <TextBox Grid.Row="2" Grid.Column="1"
+                     VerticalAlignment="Center"
+                     Margin="0,0,20,0"
+                     materialDesign:HintAssist.Hint="Enter Session Capacity"
+                     PreviewTextInput="AcceptInt"
+                     Text="{Binding Path=Capacity}"/>
+
+        </Grid>
+
+        <DockPanel Grid.Row="2" LastChildFill="False"
+                   Width="250"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   Margin="0,5">
+
+            <Button DockPanel.Dock="Left"
+                    Content="Add"
+                    Click="BtnAddSession"/>
+            <Button DockPanel.Dock="Right"
+                    Content="Cancel"
+                    Click="BtnCancelAddSession"/>
+        </DockPanel>
+    </Grid>
+</Window>

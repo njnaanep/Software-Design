@@ -1,0 +1,507 @@
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\nunit.engine.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\nunit.engine.api.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\TEC_Interface.exe
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\TEC_Interface.deps.json
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\TEC_Interface.runtimeconfig.json
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\TEC_Interface.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\TEC_Interface.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\TEC_Interface.pdb
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.Utilities.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\testhost.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\nunit.framework.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\DataLayer.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ServiceLayer.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\TEC_TestCase.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\DataLayer.pdb
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ServiceLayer.pdb
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\TEC_TestCase.pdb
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\TEC_Interface.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\OpeningView\AddOpeningView.baml
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\OpeningView\EditOpeningView.baml
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CandidateView\AddCandidatesVIew.g.cs
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CandidateView\EditCandidateView.g.cs
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CompanyView\AddCompanyView.g.cs
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CompanyView\EditCompanyView.g.cs
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CourseView\AddCourseView.g.cs
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CourseView\EditCourseView.g.cs
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\JobHistoryView\AddJobHistoryView.g.cs
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\JobHistoryView\EditJobHistoryView.g.cs
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\OpeningView\AddOpeningView.g.cs
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\OpeningView\EditOpeningView.g.cs
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\QualificationsView\AddQualificationView.g.cs
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\QualificationsView\EditQualificationView.g.cs
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\TrainingSessionView\AddSessionScheduleView.g.cs
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\TrainingSessionView\AddSessionView.g.cs
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\TrainingSessionView\EditSessionScheduleView.g.cs
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\TrainingSessionView\EditSessionView.g.cs
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\TEC_Interface_MarkupCompile.cache
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\TEC_Interface_MarkupCompile.lref
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CandidateView\AddCandidatesVIew.baml
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CandidateView\EditCandidateView.baml
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CompanyView\AddCompanyView.baml
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CompanyView\EditCompanyView.baml
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CourseView\AddCourseView.baml
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CourseView\EditCourseView.baml
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\JobHistoryView\AddJobHistoryView.baml
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\JobHistoryView\EditJobHistoryView.baml
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\QualificationsView\AddQualificationView.baml
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\QualificationsView\EditQualificationView.baml
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\TrainingSessionView\AddSessionScheduleView.baml
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\TrainingSessionView\AddSessionView.baml
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\TrainingSessionView\EditSessionScheduleView.baml
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\TrainingSessionView\EditSessionView.baml
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\TEC_Interface.g.resources
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\TEC_Interface.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\TEC_Interface.AssemblyInfo.cs
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\TEC_Interface.csproj.CopyComplete
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\TEC_Interface.dll
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\TEC_Interface.pdb
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\TestView.baml
+C:\Users\Admin\Desktop\For Transfer\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\TestView.g.cs
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\nunit.engine.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\nunit.engine.api.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\TEC_Interface.exe
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\TEC_Interface.deps.json
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\TEC_Interface.runtimeconfig.json
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\TEC_Interface.runtimeconfig.dev.json
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\TEC_Interface.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\TEC_Interface.pdb
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CoreUtilities.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CommunicationUtilities.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CrossPlatEngine.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.Utilities.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.Common.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\testhost.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\nunit.framework.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\DataLayer.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ServiceLayer.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\TEC_TestCase.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\DataLayer.pdb
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ServiceLayer.pdb
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\TEC_TestCase.pdb
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\TEC_Interface.csprojAssemblyReference.cache
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\OpeningView\AddOpeningView.baml
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\OpeningView\EditOpeningView.baml
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\TestView.baml
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CandidateView\AddCandidatesVIew.g.cs
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CandidateView\EditCandidateView.g.cs
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CompanyView\AddCompanyView.g.cs
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CompanyView\EditCompanyView.g.cs
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CourseView\AddCourseView.g.cs
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CourseView\EditCourseView.g.cs
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\JobHistoryView\AddJobHistoryView.g.cs
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\JobHistoryView\EditJobHistoryView.g.cs
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\OpeningView\AddOpeningView.g.cs
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\OpeningView\EditOpeningView.g.cs
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\QualificationsView\AddQualificationView.g.cs
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\QualificationsView\EditQualificationView.g.cs
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\TestView.g.cs
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\TrainingSessionView\AddSessionScheduleView.g.cs
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\TrainingSessionView\AddSessionView.g.cs
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\TrainingSessionView\EditSessionScheduleView.g.cs
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\TrainingSessionView\EditSessionView.g.cs
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\App.g.cs
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\TEC_Interface_MarkupCompile.cache
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\TEC_Interface_MarkupCompile.lref
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\App.baml
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\MainWindow.baml
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CandidateView\AddCandidatesVIew.baml
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CandidateView\EditCandidateView.baml
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CompanyView\AddCompanyView.baml
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CompanyView\EditCompanyView.baml
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CourseView\AddCourseView.baml
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CourseView\EditCourseView.baml
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\JobHistoryView\AddJobHistoryView.baml
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\JobHistoryView\EditJobHistoryView.baml
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\QualificationsView\AddQualificationView.baml
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\QualificationsView\EditQualificationView.baml
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\TrainingSessionView\AddSessionScheduleView.baml
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\TrainingSessionView\AddSessionView.baml
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\TrainingSessionView\EditSessionScheduleView.baml
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\TrainingSessionView\EditSessionView.baml
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\TEC_Interface.g.resources
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\TEC_Interface.AssemblyInfoInputs.cache
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\TEC_Interface.AssemblyInfo.cs
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\TEC_Interface.csproj.CopyComplete
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\TEC_Interface.dll
+F:\ACADS\2nd Sem '19\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\TEC_Interface.pdb
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\NUnit3.TestAdapter.pdb
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\nunit.engine.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\nunit.engine.api.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\TEC_Interface.exe
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\TEC_Interface.deps.json
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\TEC_Interface.runtimeconfig.json
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\TEC_Interface.runtimeconfig.dev.json
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\TEC_Interface.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\TEC_Interface.pdb
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CoreUtilities.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CommunicationUtilities.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CrossPlatEngine.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.Utilities.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.Common.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\testhost.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\nunit.framework.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\DataLayer.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ServiceLayer.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\TEC_TestCase.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\DataLayer.pdb
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\ServiceLayer.pdb
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\bin\Debug\netcoreapp3.1\TEC_TestCase.pdb
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\TEC_Interface.csprojAssemblyReference.cache
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\OpeningView\AddOpeningView.baml
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\OpeningView\EditOpeningView.baml
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\TestView.baml
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CandidateView\AddCandidatesVIew.g.cs
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CandidateView\EditCandidateView.g.cs
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CompanyView\AddCompanyView.g.cs
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CompanyView\EditCompanyView.g.cs
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CourseView\AddCourseView.g.cs
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CourseView\EditCourseView.g.cs
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\JobHistoryView\AddJobHistoryView.g.cs
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\JobHistoryView\EditJobHistoryView.g.cs
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\OpeningView\AddOpeningView.g.cs
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\OpeningView\EditOpeningView.g.cs
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\QualificationsView\AddQualificationView.g.cs
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\QualificationsView\EditQualificationView.g.cs
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\TestView.g.cs
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\TrainingSessionView\AddSessionScheduleView.g.cs
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\TrainingSessionView\AddSessionView.g.cs
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\TrainingSessionView\EditSessionScheduleView.g.cs
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\TrainingSessionView\EditSessionView.g.cs
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\App.g.cs
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\TEC_Interface_MarkupCompile.cache
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\TEC_Interface_MarkupCompile.lref
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\App.baml
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\MainWindow.baml
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CandidateView\AddCandidatesVIew.baml
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CandidateView\EditCandidateView.baml
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CompanyView\AddCompanyView.baml
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CompanyView\EditCompanyView.baml
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CourseView\AddCourseView.baml
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\CourseView\EditCourseView.baml
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\JobHistoryView\AddJobHistoryView.baml
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\JobHistoryView\EditJobHistoryView.baml
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\QualificationsView\AddQualificationView.baml
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\QualificationsView\EditQualificationView.baml
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\TrainingSessionView\AddSessionScheduleView.baml
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\TrainingSessionView\AddSessionView.baml
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\TrainingSessionView\EditSessionScheduleView.baml
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\View\TrainingSessionView\EditSessionView.baml
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\TEC_Interface.g.resources
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\TEC_Interface.AssemblyInfoInputs.cache
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\TEC_Interface.AssemblyInfo.cs
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\TEC_Interface.csproj.CopyComplete
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\TEC_Interface.dll
+F:\ACADS\2nd - 2nd sem\Software Design\Project\TemporaryEmployment\TEC_Interface\obj\Debug\netcoreapp3.1\TEC_Interface.pdb

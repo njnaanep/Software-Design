@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Services\**" />
+    <Compile Remove="Service\**" />
+    <Compile Remove="View\PlacementView\**" />
+    <EmbeddedResource Remove="Services\**" />
+    <EmbeddedResource Remove="Service\**" />
+    <EmbeddedResource Remove="View\PlacementView\**" />
+    <None Remove="Services\**" />
+    <None Remove="Service\**" />
+    <None Remove="View\PlacementView\**" />
+    <Page Remove="Services\**" />
+    <Page Remove="Service\**" />
+    <Page Remove="View\PlacementView\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="View\CourseView\AddCoursePrerequisites.xaml.cs" />
+    <Compile Remove="View\QualificationsView\AddRequiredCourse.xaml.cs" />
+    <Compile Remove="View\TrainingSessionView\AddSessionCandidate.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="View\CourseView\AddCoursePrerequisites.xaml" />
+    <Page Remove="View\QualificationsView\AddRequiredCourse.xaml" />
+    <Page Remove="View\TrainingSessionView\AddSessionCandidate.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="3.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Naanep_FinalProject\DataLayer.csproj" />
+    <ProjectReference Include="..\ServiceLayer\ServiceLayer.csproj" />
+    <ProjectReference Include="..\TEC_TestCase\TEC_TestCase.csproj" />
+  </ItemGroup>
+
+</Project>
